@@ -14,7 +14,7 @@ tv.xml:
 data file read by xsltv
 
 crontab -e
-* 7 * * * /home/legend/bin/xsltv/myepg.py
+* 7 * * * /home/legend/libs/xsltv/myepg.py
 
 xsltv:
 see README.txt first
