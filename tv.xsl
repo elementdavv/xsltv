@@ -246,7 +246,10 @@
 			<xsl:choose>
 				<xsl:when test="@stop">
 					<xsl:choose>
-						<xsl:when test="((number(substring(@stop,9,2))*60)+number(substring(@stop,11,2))) > ((number(substring(@start,9,2))*60)+number(substring(@start,11,2)))">
+<!-- dyz edit						<xsl:when test="((number(substring(@stop,9,2))*60)+number(substring(@stop,11,2))) > ((number(substring(@start,9,2))*60)+number(substring(@start,11,2)))">
+							<xsl:value-of select="(((number(substring(@stop,9,2))*60)+number(substring(@stop,11,2)))-((number(substring(@start,9,2))*60)+number(substring(@start,11,2))))"/>
+						</xsl:when> -->
+						<xsl:when test="((number(substring(@stop,9,2))*3600)+(number(substring(@stop,11,2))*60)+number(substring(@stop,13,2))) > ((number(substring(@start,9,2))*3600)+(number(substring(@start,11,2))*60)+number(substring(@start,13,2))">
 							<xsl:value-of select="(((number(substring(@stop,9,2))*60)+number(substring(@stop,11,2)))-((number(substring(@start,9,2))*60)+number(substring(@start,11,2))))"/>
 						</xsl:when>
 						<xsl:otherwise> <!--otherwise it must be concluding tomorrow, so the result will be negative. Add the number of minutes in a day. -->
