@@ -18,5 +18,5 @@ crontab -e
 
 xsltv:
 see README.txt first
-use: ln -s to tomcat webapp
+only titantv theme optimized, pls use it instead
 edited: titantv.tv.css tv.xsl
