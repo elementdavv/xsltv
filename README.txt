@@ -22,6 +22,11 @@ More info:
 3b. Put current xmltv files titled with the date of the listings (YYYYMMDD.xml) in the same directory. Do this with a command like this: tv_split --output %Y%m%d.xml tv.xml
 4. Load tv.html in a webbrowser. Note: This file (and only this file) may be freely renamed (e.g. to index.html).
 
+Problems:
+Some browsers restrict xmlhttprequests on local files, which gets in the way when using XSLTv in a local directory. (Not a problem on webservers.)
+In Opera, go to opera:config, search for "xmlhttp" and check the box by "Allow File XMLHttpRequest". THIS IS A SECURITY RISK.
+In Chrome, run chrome.exe with the command-line parameter "--disable-web-security". THIS IS A SECURITY RISK.
+
 * Optionally, put your icons directory (which should be called "icons" and should contain the images referenced in the xml tree) in the web tree. In North America, obtain icons with tv_grab_na_icons; subsequent tv_grab_na_dd calls will add the necessary references to your xml file. Note: Where I live, several icons are .gif files with a .jpg extension. Don't correct them. The links in the xml are to the .jpg extension, and the browser will display it anyhow. 
 * Optionally, if you are installing XSLTv on a webserver with SSI, change the filename to tv.shtml, and the server time will be used instead of the client time.
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

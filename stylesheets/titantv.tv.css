@@ -101,16 +101,18 @@ td.program{
 	text-align:left;
 	font-family:arial, sans-serif;
 	font-size: 8pt;
-	font-weight:bold;
+/* dyz del	font-weight:bold; */
 	margin:0px;
 	padding:1px;
 	border:0px;
 	overflow: hidden;
-	vertical-align:top;
+/* dyz del	vertical-align:top; */
 	height:30px;
 	width:100%;
 	background-color:transparent;
 	color:black;
+/* dyz add */
+	white-space: nowrap;
 }
 .Clickable{
 color:#BBBBBB;
@@ -120,13 +122,13 @@ tr.oddrow td{
 
 td{
 	margin-left:1px;
-	padding-left:8px;
+/* dyz del	padding-left:8px; */
 	padding-right:0px;
 	padding-top:0px;
 	padding-bottom:0px;
 	border:1px solid black;
 	overflow: hidden;
-	vertical-align:top;
+/* dyz del	vertical-align:top; */
 	height:30px;
 	background-color:#EDEDED;
 	}
@@ -155,7 +157,8 @@ th.channel{
 	font-size:8pt
 	}
 tr.timebar{
-	background-color:#DEE7EF;
+/* dyz edit	background-color:#DEE7EF; */
+	background-color:#DEE7AF;
 }
 th.time{
 	text-align:left;
@@ -298,10 +301,12 @@ padding: 2px;
 border: 2px solid black;
 background-color: lightyellow;
 color:black;
-width: 150px;
+/* dyz edit width: 150px; */
+width: 250px;
 Font-Family:'arial';
-font-size:11pt;
-font-weight:bold;
+/* dyz edit font-size:11pt; */
+font-size:10pt;
+/* dyz del font-weight:bold; */
 }
 
 .popupbody{
@@ -310,9 +315,11 @@ border: 2px solid black;
 border-top: 0px;
 background-color: lightyellow;
 color:black;
-width: 150px;
+/* dyz edit width: 150px; */
+width: 250px;
 Font-Family:'arial';
-font-size:11pt;
+/* dyz edit font-size:11pt; */
+font-size:10pt;
 font-weight:normal;
 }
 
@@ -393,6 +400,7 @@ hr{
 	.leftchanneltable .rightnumber{display:none;}
 .leftchanneltable .rightlogocell{display:none;}
 .leftchanneltable .rightnumbercell{
+/* dyz edit width:20px */
 	width:20px;
 	background-color:transparent;
 	padding:0px;

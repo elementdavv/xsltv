@@ -56,14 +56,14 @@
 <xsl:variable name="StartDisplayCode" select="number($CurrentHour)*60" /> <!-- These are for rendering the table -->
 <xsl:variable name="StopDisplayCode" select="(number($CurrentHour)+number($DisplayLength))*60" />
 
-<xsl:variable name="StartTimeString" select="number(concat($CurrentYear, format-number($CurrentMonth,'00'), format-number($CurrentDay,'00'), format-number($CurrentHour,'00'), '00'))" /> <!-- These are for selecting the appropriate programmes -->
-<xsl:variable name="StopTimeString" select="number(concat($StopYear, format-number($StopMonth,'00'), format-number($StopDay,'00'), format-number($StopHour,'00'), '00'))" /> <!-- These are for selecting the appropriate programmes -->
+<xsl:variable name="StartTimeString" select="concat($CurrentYear, format-number($CurrentMonth,'00'), format-number($CurrentDay,'00'), format-number($CurrentHour,'00'), '00')" /> <!-- These are for selecting the appropriate programmes -->
+<xsl:variable name="StopTimeString" select="concat($StopYear, format-number($StopMonth,'00'), format-number($StopDay,'00'), format-number($StopHour,'00'), '00')" /> <!-- These are for selecting the appropriate programmes -->
 <xsl:variable name="programmes" select="/tv/programme[((substring(@stop,1,12) &gt; $StartTimeString and substring(@stop,1,12) &lt;= $StopTimeString) or (substring(@start,1,12) &gt;= $StartTimeString and substring(@start,1,12) &lt; $StopTimeString) or (substring(@start,1,12) &lt;= $StartTimeString and substring(@stop,1,12) &gt;= $StopTimeString))]"/>
 
 <table id="listings">
 
 <xsl:for-each select="/tv/channel">
-<xsl:sort select="display-name[3]" data-type="number"></xsl:sort>
+<!-- dyz del <xsl:sort select="display-name[3]" data-type="number"></xsl:sort> -->
 
 <xsl:choose>
 	<xsl:when test="(position() mod $TimeBarFrequency = 1) or (position() = 1)">
@@ -102,7 +102,8 @@
 		</xsl:when>
 		<xsl:when test="$Grabber = 'tv_grab_se' or $Grabber = 'tv_grab_de'"><xsl:text> </xsl:text></xsl:when>
 		<xsl:when test="$Grabber = 'tv_grab_huro'">
-			<xsl:value-of select="substring(./@id,1,3)"/>
+<!-- dyz edit			<xsl:value-of select="substring(./@id,1,3)"/> -->
+			<xsl:value-of select="substring(./@id,1,4)"/>
 		</xsl:when>
 		<xsl:otherwise>
 			??
