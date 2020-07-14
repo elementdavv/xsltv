@@ -1,0 +1,21 @@
+p.py:
+a test program, use e.xml
+
+myepg.py:
+produce tv.xml from e.xml and channeldef
+
+e.xml:
+epg file from http://epg.51zmt.top:8000/e.xml
+
+channeldef:
+my channel name list
+
+tv.xml:
+data file read by xsltv
+
+crontab -e
+* 7 * * * /home/legend/bin/xsltv/myepg.py >> /home/legend/myepg.log
+
+xsltv:
+use: ln -s to tomcat webapp
+edited: titantv.tv.css tv.xsl
