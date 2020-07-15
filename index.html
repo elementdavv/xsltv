@@ -521,6 +521,10 @@ function Init(dl,ch,cd,cm,cy,offset) {
 	document.getElementById('day').options[document.getElementById('day').selectedIndex].value,
 	Number(document.getElementById('month').options[document.getElementById('month').selectedIndex].value)+1,
 	document.getElementById('year').options[document.getElementById('year').selectedIndex].value);"><script type="text/javascript">document.write(datepickerbutton)</script></button>
+
+<!-- dyz add -->
+	<button id="preferencesbutton" onclick="moveObject('menu', event);moveObject('prefiframe',event);document.getElementById('prefiframe').style.width=document.getElementById('menu').offsetWidth;document.getElementById('prefiframe').style.height=document.getElementById('menu').offsetHeight;"><script type="text/javascript">document.write(preferenceslink)</script></button>
+
 </div>
 <div style="float:right;">
 	<span id="barclock"></span>
@@ -567,9 +571,13 @@ function Init(dl,ch,cd,cm,cy,offset) {
 	<div id="loading"><script type="text/javascript">document.write(loadingtext+"...");</script></div>
 </div>
 <div id="clock"></div>
+
+<!-- dyz del
 <div id="preflink">
 <a href="#" onclick="moveObject('menu', event);moveObject('prefiframe',event);document.getElementById('prefiframe').style.width=document.getElementById('menu').offsetWidth;document.getElementById('prefiframe').style.height=document.getElementById('menu').offsetHeight;"><script type="text/javascript">document.write(preferenceslink)</script></a>
 </div>
+-->
+
 <iframe src="javascript:;" scrolling="no" frameborder="0" id="prefiframe" style="display:none;position:absolute;"></iframe>
 <div id="menu">
 	<ul id="preftabs">
@@ -643,6 +651,10 @@ function Init(dl,ch,cd,cm,cy,offset) {
 	<label for="showbarclock"><script type="text/javascript">document.write(showbarclocklabel)</script></label><input id="showbarclock" name="showbarclock" type="checkbox" onclick="var v=this.checked; createCookie('xsltvshowbarclock',v,365);"/><a href="#" class="hintanchor" onMouseover="showhint(showbarclockhint, this, event)">[?]</a><br/>
 	</div>
 	<a href="#" class="Submit" onClick="window.location.reload();"><script type="text/javascript">document.write(reloadbutton)</script></a>
+
+<!-- dyz add -->
+	<a href="#" class="Submit" style="float: right;" onclick="moveObject('menu', event);moveObject('prefiframe',event);">Close</a>
+
 </div>
 <script type="text/javascript">
 document.getElementById('menu').style.display="none"; /*hide the preferences form*/
