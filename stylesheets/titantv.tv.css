@@ -180,7 +180,8 @@ th.topleftcorner{
 	border:1px solid black;
 	background-image:url(../images/titantvearlier.gif);
 	background-repeat:no-repeat;
-	background-position:left center;
+/* dyz edit	background-position:left center; */
+	background-position:center center;
 	text-decoration:none;
 	color:black;
 	font-size:12pt;
@@ -196,7 +197,8 @@ th.toprightcorner {
 	border:1px solid black;
 	background-image:url(../images/titantvlater.gif);
 	background-repeat:no-repeat;
-	background-position:right center;
+/* dyz edit	background-position:right center; */
+	background-position:center center;
 	text-decoration:none;
 	color:black;
 	font-size:12pt;
