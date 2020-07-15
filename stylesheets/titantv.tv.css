@@ -174,7 +174,7 @@ th.time{
 
 th.topleftcorner{
 	height: 13px;
-	width:80px;
+	width:90px;
 	border:1px solid black;
 	background-image:url(../images/titantvearlier.gif);
 	background-repeat:no-repeat;
@@ -189,7 +189,7 @@ th.topleftcorner{
 
 th.toprightcorner {
 	height: 13px;
-	width:13px;
+	width:30px;
 	border:1px solid black;
 	background-image:url(../images/titantvlater.gif);
 	background-repeat:no-repeat;
@@ -374,7 +374,7 @@ hr{
 .leftchanneltable{
 	table-layout:fixed;
 	border-collapse: collapse;
-	width:80px;
+	width:90px;
 	margin:0px;
 	border:0px;
 	background-color:transparent;
@@ -401,7 +401,7 @@ hr{
 .leftchanneltable .rightlogocell{display:none;}
 .leftchanneltable .rightnumbercell{
 /* dyz edit width:20px */
-	width:20px;
+	width:30px;
 	background-color:transparent;
 	padding:0px;
 	overflow: visible;
@@ -413,7 +413,7 @@ hr{
 .rightchanneltable{
 	table-layout:fixed;
 	border-collapse: collapse;
-	width:13px;
+	width:30px;
 	margin:0px;
 	border:0px;
 	background-color:transparent;
@@ -426,7 +426,7 @@ hr{
 	display:none;
 }
 .rightchanneltable .leftnumbercell{
-	width:13px;
+	width:30px;
 	background-color:transparent;
 	padding:0px;
 	overflow: visible;
