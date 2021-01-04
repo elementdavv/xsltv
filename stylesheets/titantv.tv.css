@@ -406,6 +406,8 @@ hr{
 	.leftchanneltable .rightnumber{display:none;}
 .leftchanneltable .rightlogocell{display:none;}
 .leftchanneltable .rightnumbercell{
+/* dyz add */
+	display:none;
 /* dyz edit width:20px */
 	width:30px;
 	background-color:transparent;

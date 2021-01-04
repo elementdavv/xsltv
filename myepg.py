@@ -19,7 +19,6 @@ class Myepg:
       url = EPGURL
       
     filename = os.path.join(currentDir, EPGXML)
-  
     
     try:
       urllib.request.urlretrieve(url, filename)
