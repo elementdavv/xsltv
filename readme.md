@@ -1,4 +1,7 @@
-# install
+# description
+please goto [timelegend.net](https://timelegend.net/tvguide)
+
+## install
 * setup nginx
 * setup php
 * copy to www root
