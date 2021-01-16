@@ -1,0 +1,12 @@
+{
+  "default": {
+    "data": "20210116"
+  },
+  "215a9d7b-e5b4-43ab-be68-2961e1a1c170": {
+    "created": "01/13/21 16:41:55",
+    "data": "20210116",
+    "ip": "::1",
+    "platform": "linux",
+    "browser": "Google Chrome 87.0.4280.88"
+  }
+}

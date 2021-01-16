@@ -1,12 +1,41 @@
-<!DOCTYPE html 
+<!DOCTYPE html
      PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>TV Listings</title>
+
+<!-- add Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R86CSKBR9P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R86CSKBR9P');
+</script>
+
+<meta charset = 'utf-8'>
+
+<!-- add -->
+<meta name="generator" content="timelegend.net" />
+<meta name="description" content="每天更新的全国电视频道节目指南，实时查看" />
+<meta name="keywords" content="电视 节目 指南 预告 节目单 节目表 时间表 全国 电子 实时 收视 更新 tv guide" />
+<meta name="author" content="vinctai" />
+<meta property="og:title" content="电视节目指南" />
+<meta property="og:url" content="https://timelegend.net/tvguide" />
+<meta property="og:image" content="https://timelegend.net/user/images/2021-01-15_01-06.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@vinctai" />
+<meta name="twitter:title" content="电视节目指南" />
+<meta name="twitter:description" content="每天更新的全国电视频道节目指南，实时查看" />
+<meta name="twitter.image" content="https://timelegend.net/user/images/2021-01-15_01-06.png" />
+
+<!-- edit -->
+<title>电视节目指南 | 时间传说</title>
+
 <!--XSLTv is Copyright 2008 Eric Lofgren. See http://www.ericandchar.com/xsltvgrid/ -->
-<link rel="stylesheet" type="text/css" href="stylesheets/yahooold.tv.css" title="YahooOld" />
-<link rel="stylesheet" type="text/css" href="stylesheets/yahoonew.tv.css" title="YahooNew" />
+<link rel="alternate stylesheet" type="text/css" href="stylesheets/yahooold.tv.css" title="YahooOld" />
+<link rel="alternate stylesheet" type="text/css" href="stylesheets/yahoonew.tv.css" title="YahooNew" />
 <link rel="alternate stylesheet" type="text/css" href="stylesheets/tvguideold.tv.css" title="TVGuideOld" />
 <link rel="alternate stylesheet" type="text/css" href="stylesheets/tvguideprint.tv.css" title="TVGuidePrint" />
 <link rel="alternate stylesheet" type="text/css" href="stylesheets/tvguidenew.tv.css" title="TVGuideNew" />
@@ -15,16 +44,43 @@
 <link rel="alternate stylesheet" type="text/css" href="stylesheets/meevee.tv.css" title="MeeVee" />
 <link rel="alternate stylesheet" type="text/css" href="stylesheets/newspaper.tv.css" title="Newspaper" />
 <link rel="alternate stylesheet" type="text/css" href="stylesheets/msn.tv.css" title="MSN" />
-<link rel="alternate stylesheet" type="text/css" href="stylesheets/titantv.tv.css" title="TitanTV" />
+<link rel="stylesheet" type="text/css" href="stylesheets/titantv.tv.css" title="TitanTV" />
 <link rel="alternate stylesheet" type="text/css" href="stylesheets/eric.css" title="Eric" />
-<style id="topstyle" type="text/css"></style> <!--Empty style is added to for dynamic table sizing-->
+
+<!-- add -->
+<link rel="stylesheet" type="text/css" href="dlb/dual-listbox.css" />
+<link rel="stylesheet" type="text/css" href="f7/framework7-icons.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/custom.css" />
+
+<!-- add touch to show title for mobile -->
+<style>
+body.touched [title] > * {
+	user-select: none;
+}
+body.touched [title]:hover > * {
+	user-select: none
+}
+body.touched [title]:hover:after {
+    position: fixed;
+	content: attr(title);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: white;
+	box-shadow: 1px 1px 3px;
+	padding: 0.3em;
+	z-index: 1;
+}</style>
+
+<!--Empty style is added to for dynamic table sizing-->
+<style id="topstyle" type="text/css"></style>
 <!-- HINTBOX -->
+
 <script type="text/javascript">
 /***********************************************
 * Show Hint script- copyright Dynamic Drive (www.dynamicdrive.com)
 * This notice MUST stay intact for legal use
 * Visit http://www.dynamicdrive.com/ for this script and 100s more.
 ***********************************************/
+/*
 		
 var horizontal_offset="9px" //horizontal offset of hint box from anchor link
 
@@ -96,8 +152,9 @@ else if (window.attachEvent)
 window.attachEvent("onload", createhintbox)
 else if (document.getElementById)
 window.onload=createhintbox
-
+*/
 </script>
+
 <!-- endHINTBOX -->
 <script type="text/javascript">
 /*Check if SSIs are working. If they are, use the server date and time intead of the client.*/
@@ -114,10 +171,22 @@ var template;
 var sortstring;
 var xmlfileneeded='';
 var xmlfileloaded;
+
+// add
+var testrequest;
+var testfile = 'userbag.json';
+var usertvphp = 'usertv.php';
+var channelrequest;
+var allfile = 'all.chn';
+var allchannels;
+var userchannels;
+var userrequest;
+var userchannelphp = 'userchannel.php';
+
 </script>
 <script type='text/javascript' src='tv.js'></script>
 <script type="text/javascript">
-var cookie = readCookie("xsltvhours"); var hours = cookie ? Number(cookie) : 4;
+var cookie = readCookie("xsltvhours"); var hours = cookie ? Number(cookie) : 6;
 cookie = readCookie("xsltvtablewidth"); var tablewidth = cookie ? Number(cookie) : (200+(hours * 150));
 cookie = readCookie("xsltvautosize"); var autosize = cookie ? cookie : true;
 cookie = readCookie("xsltvfixgaps"); var fixgaps = cookie ? cookie : false;
@@ -134,27 +203,104 @@ cookie = readCookie("xsltvpopupstarrating"); var popupstarrating = cookie ? cook
 cookie = readCookie("xsltvabsoluteicons"); var absoluteicons = cookie ? cookie : false;
 cookie = readCookie("xsltvoffsetminutes"); var offsetminutes = cookie ? Number(cookie) : 60;
 cookie = readCookie("xsltvrefreshonthe"); var refreshonthe = cookie ? Number(cookie) : -1;
-cookie = readCookie("xsltvgrabber"); var grabber = cookie ? cookie : "tv_grab_na_dd";
+cookie = readCookie("xsltvgrabber"); var grabber = cookie ? cookie : "tv_grab_huro";
 cookie = readCookie("xsltvdayfirst"); var dayfirst = cookie ? cookie : false;
 cookie = readCookie("xsltvcategorycolors"); var categorycolors = cookie ? cookie : true;
 cookie = readCookie("xsltvdailyfiles"); var dailyfiles = cookie ? cookie : false;
 cookie = readCookie("xsltvtwelvehour"); var twelvehour = cookie ? cookie : false;
-cookie = readCookie("xsltvloadonclick"); var loadonclick = cookie ? cookie : 'IMDB';
-cookie = readCookie("xsltvlanguage"); var language = cookie ? cookie : 'english';
+cookie = readCookie("xsltvloadonclick"); var loadonclick = cookie ? cookie : 'nothing';
+cookie = readCookie("xsltvlanguage"); var language = cookie ? cookie : 'chinese';
 cookie = readCookie("xsltvhighlightclickable"); var highlightclickable = cookie ? cookie : false;
 cookie = readCookie("xsltvhighlightmovies"); var highlightmovies = cookie ? Number(cookie) : 10;
 cookie = readCookie("xsltvhighlightnew"); var highlightnew = cookie ? cookie : false;
 cookie = readCookie("xsltvprintdates"); var printdates = cookie ? cookie : true;
-cookie = readCookie("xsltvtimebarfrequency"); var timebarfrequency = cookie ? cookie : -1;
-cookie = readCookie("xsltvshowclock"); var showclock = cookie ? cookie : true;
-cookie = readCookie("xsltvshowbarclock"); var showbarclock = cookie ? cookie : false;
+cookie = readCookie("xsltvtimebarfrequency"); var timebarfrequency = cookie ? cookie : 10;
+cookie = readCookie("xsltvshowclock"); var showclock = cookie ? cookie : false;
+cookie = readCookie("xsltvshowbarclock"); var showbarclock = cookie ? cookie : true;
 
-var languagefile = 'lang/'+language+'.js'
-document.write('<script type="text/javascript" src="'+languagefile+'"><\/script>') 
+// add: read user id from cookie
+cookie = readCookie("xsltvusertag"); var usertag = cookie ? cookie : 'default';
+<!-- usertag = 'default'; -->
+
+var languagefile = 'lang/'+language+'.js';
+document.write('<script type="text/javascript" src="' + languagefile + '"><\/script>');
 
 var myDate=new Date(currenttime);
 myDate.setMinutes(myDate.getMinutes() + (60 - offsetminutes));
 
+/* add: load userbag and handler */
+function yyyymmdd() {
+	var d = myDate.getDate();
+	if (d < 10) {d = "0" + d;}
+	m = myDate.getMonth() + 1;
+	if (m < 10) {m = "0" + m;}
+	return myDate.getFullYear() + m + d;
+}
+
+/* timestamp */
+function tstamp() {
+    return new Date().getTime();
+}
+
+/* uuid */
+function generateUUID() {
+    var d = new Date().getTime();
+    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = (d + Math.random()*16)%16 | 0;
+        d = Math.floor(d/16);
+        return (c=='x' ? r : (r&0x3|0x8)).toString(16);
+    });
+    return uuid;
+};
+
+function loadTest(){
+	document.getElementById('loading').style.display="block";
+	document.getElementById('loading').innerHTML=loadingtext+" " + testfile;
+    if (window.XMLHttpRequest && window.XSLTProcessor) {
+		testrequest = new XMLHttpRequest();
+		testrequest.onreadystatechange = handleTestResponse;
+		testrequest.overrideMimeType('text/json');
+		testrequest.open("GET", testfile + '?t=' + tstamp(), true);
+		testrequest.send(null);
+	}
+	else if (window.ActiveXObject){
+		testrequest = new ActiveXObject("Msxml2.DOMDocument.3.0");
+		testrequest.async = true;
+		testrequest.onreadystatechange = handleTestResponse;
+		testrequest.load(testfile);
+	}
+	else {
+	    alert('Your browser can\'t handle this script');
+	return;
+	}
+}
+
+function handleTestResponse(){
+	if (testrequest.readyState == 4) {
+		if(testrequest.status>=300){
+			var errorstring=errortext+" "+testrequest.status+": "+filetext+" "+testfile+" "+notfoundtext+".";
+			document.getElementById('loading').innerHTML=errorstring;
+		}else{
+			if (window.XMLHttpRequest && window.XSLTProcessor) { //Netscape only
+				test = testrequest.responseText;
+			}
+            else if (window.ActiveXObject) {
+                test = testrequest
+            }
+            var bag = JSON.parse(test);
+            var v = bag[usertag]['data'];
+            today = yyyymmdd();
+            if (! v || v < today) {
+                window.location.replace(usertvphp + '?tag=' + usertag);
+            }
+		}
+	} else {
+		document.getElementById('loading').style.display="block";
+	}
+}
+/* add end */
+
+/* del
 if(dailyfiles.toString()=="true"){
 	fileDate=myDate.getDate();
 	if (fileDate < 10) {fileDate = "0"+fileDate;}
@@ -162,34 +308,45 @@ if(dailyfiles.toString()=="true"){
 	if (fileMonth < 10) {fileMonth = "0"+fileMonth;}
 	xmlfileneeded=xmlfileneeded.concat(myDate.getFullYear(),fileMonth,fileDate,'.xml');
 }else{
-	xmlfileneeded='tv.xml'
+	xmlfileneeded='user/' + usertag + '.xml'
 }
+*/
 
 if(grabber=="tv_grab_fr"){
 	sortstring="substring-after(substring-before(./@id,'.'),'C')";
 }else if(grabber=="tv_grab_es"){
 	sortstring="display-name[2]";
 }else if(grabber=="tv_grab_huro"){
-	sortstring="substring(./@id,1,3)";
+
+// edit	sortstring="substring(./@id,1,3)";
+	sortstring="substring(./@id,1,4)";
+
 }else{
 	sortstring="display-name[3]";
 }
 
-
-if (document.implementation && document.implementation.createDocument) { //Netscape only
-	document.getElementById('topstyle').sheet.insertRule("#listings { width: "+ tablewidth +"px }", document.getElementById('topstyle').sheet.cssRules.length )
-	document.getElementById('topstyle').sheet.insertRule("#gridtime { width: "+ tablewidth +"px }", document.getElementById('topstyle').sheet.cssRules.length )
-}else{
-	document.styleSheets['topstyle'].addRule ("#listings", "width:"+ tablewidth +"px");
-	document.styleSheets['topstyle'].addRule ("#gridtime", "width:"+ tablewidth +"px");
+<!-- edit use full width and autoresize and make it a method-->
+function resize(){
+    if (autosize.toString() == 'true') {
+        tablewidth = window.innerWidth;
+        if (tablewidth < 1024) {
+            tablewidth = 1024;
+        }
+    }
+    if (document.implementation && document.implementation.createDocument) { //Netscape only
+        document.getElementById('topstyle').sheet.insertRule("#listings { width: "+ tablewidth +"px }", document.getElementById('topstyle').sheet.cssRules.length )
+        document.getElementById('topstyle').sheet.insertRule("#gridtime { width: "+ tablewidth +"px }", document.getElementById('topstyle').sheet.cssRules.length )
+    }else{
+        document.styleSheets['topstyle'].addRule ("#listings", "width:"+ tablewidth +"px");
+        document.styleSheets['topstyle'].addRule ("#gridtime", "width:"+ tablewidth +"px");
+    }
 }
-
-
+resize();
 
 function loadXSL(){
-		document.getElementById('loading').style.display="block";
-		document.getElementById('loading').innerHTML=loadingtext +" tv.xsl";
-if (window.XMLHttpRequest && window.XSLTProcessor){ //netscape, but not IE7
+	document.getElementById('loading').style.display="block";
+	document.getElementById('loading').innerHTML=loadingtext +" tv.xsl";
+    if (window.XMLHttpRequest && window.XSLTProcessor){ //netscape, but not IE7
 		xslrequest = new XMLHttpRequest();
 		xslrequest.onreadystatechange = handleXslResponse;
 		xslrequest.overrideMimeType('text/xml');
@@ -209,14 +366,14 @@ if (window.XMLHttpRequest && window.XSLTProcessor){ //netscape, but not IE7
 }
 
 function loadXML(){
-		document.getElementById('loading').style.display="block";
-		document.getElementById('loading').innerHTML=loadingtext+" "+xmlfileneeded;
-if (window.XMLHttpRequest && window.XSLTProcessor)
-	{
+	xmlfileneeded='user/' + usertag + '.xml'
+	document.getElementById('loading').style.display="block";
+	document.getElementById('loading').innerHTML=loadingtext+" "+xmlfileneeded;
+    if (window.XMLHttpRequest && window.XSLTProcessor) {
 		xmlrequest = new XMLHttpRequest();
 		xmlrequest.onreadystatechange = handleXmlResponse;
 		xmlrequest.overrideMimeType('text/xml');
-		xmlrequest.open("GET", xmlfileneeded, true);
+		xmlrequest.open("GET", xmlfileneeded + '?t=' + tstamp(), true);
 		xmlrequest.send(null);
 	}
 	else if (window.ActiveXObject){
@@ -226,49 +383,49 @@ if (window.XMLHttpRequest && window.XSLTProcessor)
 		xmlrequest.load(xmlfileneeded);
 	}
 	else {
-	alert('Your browser can\'t handle this script');
+	    alert('Your browser can\'t handle this script');
 	return;
 	}
 }
 
 function handleXslResponse(){
 	if (xslrequest.readyState == 4) {
-			if (window.XMLHttpRequest && window.XSLTProcessor) { //Netscape only
-				xsl=xslrequest.responseXML;
-					sortTag = xsl.getElementsByTagName('xsl:sort'); //for firefox 3
-					if(!sortTag.item(0)){sortTag = xsl.getElementsByTagName('sort');} //for firefox 2
-					sortTag.item(0).setAttribute("select",sortstring);
-				processor.importStylesheet(xsl);
-			} 
-			else if (window.ActiveXObject){
-					sortTag = xslrequest.selectSingleNode('//xsl:sort[0]');
-					sortTag.setAttribute("select",sortstring);
-				template = new ActiveXObject("Msxml2.XSLTemplate.3.0");
-				template.stylesheet = xslrequest;
-			}
-			loadXML();
+		if (window.XMLHttpRequest && window.XSLTProcessor) { //Netscape only
+			xsl=xslrequest.responseXML;
+			sortTag = xsl.getElementsByTagName('xsl:sort'); //for firefox 3
+			if(!sortTag.item(0)){sortTag = xsl.getElementsByTagName('sort');} //for firefox 2
+			sortTag.item(0).setAttribute("select",sortstring);
+			processor.importStylesheet(xsl);
+		}
+		else if (window.ActiveXObject){
+			sortTag = xslrequest.selectSingleNode('//xsl:sort[0]');
+			sortTag.setAttribute("select",sortstring);
+			template = new ActiveXObject("Msxml2.XSLTemplate.3.0");
+			template.stylesheet = xslrequest;
+		}
+		loadXML();
 	} else {
 		document.getElementById('loading').style.display="block";
 	}
 }
 
 function handleXmlResponse(){
-		if (xmlrequest.readyState == 4) {
-			if(xmlrequest.status>=300){
-				var errorstring=errortext+" "+xmlrequest.status+": "+filetext+" "+xmlfileneeded+" "+notfoundtext+".";
-				document.getElementById('loading').innerHTML=errorstring;
-			}else{
-				if (window.XMLHttpRequest && window.XSLTProcessor) { //Netscape only
-					xml = xmlrequest.responseXML;
-				}
-				xmlfileloaded=xmlfileneeded;
-					document.getElementById('loading').style.display="block";
-					document.getElementById('loading').innerHTML="Preparing grid...";
-				Init(hours,myDate.getHours(),myDate.getDate(),myDate.getMonth()+1,myDate.getFullYear());
+	if (xmlrequest.readyState == 4) {
+		if(xmlrequest.status>=300){
+			var errorstring=errortext+" "+xmlrequest.status+": "+filetext+" "+xmlfileneeded+" "+notfoundtext+".";
+			document.getElementById('loading').innerHTML=errorstring;
+		}else{
+			if (window.XMLHttpRequest && window.XSLTProcessor) { //Netscape only
+				xml = xmlrequest.responseXML;
 			}
-		} else {
-		document.getElementById('loading').style.display="block";
+			xmlfileloaded = xmlfileneeded;
+			document.getElementById('loading').style.display="block";
+			document.getElementById('loading').innerHTML="Preparing grid...";
+			Init(hours,myDate.getHours(),myDate.getDate(),myDate.getMonth()+1,myDate.getFullYear());
 		}
+	} else {
+		document.getElementById('loading').style.display="block";
+	}
 }
 
 function Init(dl,ch,cd,cm,cy,offset) {
@@ -292,21 +449,25 @@ function Init(dl,ch,cd,cm,cy,offset) {
 	if (fileMonth < 10) {
 		fileMonth = "0"+fileMonth;
 	}
+    /* del
 	if(dailyfiles.toString()=="true"){
 		xmlfileneeded='';
 		xmlfileneeded=xmlfileneeded.concat(startDate.getFullYear(),fileMonth,fileDate,'.xml');
 		//xmlfileneeded is YYYYMMDD.xml
 	}
-		if(xmlfileneeded != xmlfileloaded){
-		//reload everything
-		loadXML();
-		}else{//this is the entire remainder of the Init() function.
-	intHours = startDate.getHours();
-	intMinutes = startDate.getMinutes();
-	starthours= intHours+":";
+    */
+	if(xmlfileneeded != xmlfileloaded){
+	    //reload everything
+	    loadXML();
+	}
+    else{   //this is the entire remainder of the Init() function.
+	    intHours = startDate.getHours();
+	    intMinutes = startDate.getMinutes();
+	    starthours= intHours+":";
 	if (intMinutes < 10) {
 		startminutes = "0"+intMinutes;
-	} else {
+	} 
+    else {
 		startminutes = intMinutes;
 	}
 	intHours = endDate.getHours();
@@ -314,16 +475,17 @@ function Init(dl,ch,cd,cm,cy,offset) {
 	endhours= intHours+":";
 	if (intMinutes < 10) {
 		endminutes = "0"+intMinutes;
-	} else {
+	} 
+    else {
 		endminutes = intMinutes;
 	}
 	gridstarttimestring=starthours+startminutes+" "+startDate.toDateString();
 	gridendtimestring=endhours+endminutes+" "+endDate.toDateString();
 
 	if(offset){
-	startDate.setHours(startDate.getHours()+offset);
-	endDate.setHours(endDate.getHours()+offset);
-	prevDate.setHours(prevDate.getHours()+offset);
+	    startDate.setHours(startDate.getHours()+offset);
+	    endDate.setHours(endDate.getHours()+offset);
+	    prevDate.setHours(prevDate.getHours()+offset);
 	}
 	selectOption(startDate.getFullYear(),document.getElementById('year').options);
 	selectOption(startDate.getMonth(),document.getElementById('month').options);
@@ -431,14 +593,19 @@ function Init(dl,ch,cd,cm,cy,offset) {
 		document.getElementById("tvframe").innerHTML = processor.output;
 	}
 	if(self.scanDOM)scanDOM(document); //refresh popups?
-	document.getElementById('tvframe').style.display="block";
-	}//All of this is inside the conditinal block requiring that the loadedfile equal the neededfile.
+	    document.getElementById('tvframe').style.display="block";
+	}   //All of this is inside the conditinal block requiring that the loadedfile equal the neededfile.
 }
 </script>
 </head>
 
-<body>
-<h1>TV Listings</h1>
+<!-- add onresize -->
+<body onresize=resize()>
+
+<!-- del
+<h1>TV Guide</h1>
+-->
+
 <div id="gridtime">
 <div style="clear:both;"></div>
 <div style="float:left;">
@@ -488,7 +655,8 @@ function Init(dl,ch,cd,cm,cy,offset) {
 
 					<option value='31'>31</option>
 	</select>
-	<a href="#" onclick="moveObject('calendarContainer', event);moveObject('califrame',event);document.getElementById('califrame').style.width=document.getElementById('calendarContainer').offsetWidth;document.getElementById('califrame').style.height=document.getElementById('calendarContainer').offsetHeight;" id="calendarlink"><span >Calendar</span></a>
+	<!-- edit <a href="#" onclick="moveObject('calendarContainer', event);moveObject('califrame',event);document.getElementById('califrame').style.width=document.getElementById('calendarContainer').offsetWidth;document.getElementById('califrame').style.height=document.getElementById('calendarContainer').offsetHeight;" id="calendarlink"><span >Cal</span></a> -->
+	<a href="#" onclick="moveObject('calendarContainer', event);" id="calendarlink"><span >Cal</span></a>
 	<select id='hour'>
 					<option value='0'>00:00</option>
 					<option value='1'>01:00</option>
@@ -522,19 +690,28 @@ function Init(dl,ch,cd,cm,cy,offset) {
 	Number(document.getElementById('month').options[document.getElementById('month').selectedIndex].value)+1,
 	document.getElementById('year').options[document.getElementById('year').selectedIndex].value);"><script type="text/javascript">document.write(datepickerbutton)</script></button>
 
-<!-- dyz add -->
+<!-- add: disable this function
 	<button id="preferencesbutton" onclick="moveObject('menu', event);moveObject('prefiframe',event);document.getElementById('prefiframe').style.width=document.getElementById('menu').offsetWidth;document.getElementById('prefiframe').style.height=document.getElementById('menu').offsetHeight;"><script type="text/javascript">document.write(preferenceslink)</script></button>
+-->
+
+<!-- add: channels selection button -->
+	<button id="channelsbutton" onclick="javascript:channels(event);"><script type="text/javascript">document.write(channelslink)</script></button>
 
 </div>
-<!-- dyz add -->
-<div style="float: left;color: red;padding-left: 40px;">网络直播节目表，每日更新</div>
+
+<!-- add -->
+<div style="float: left;color: red;padding-left: 40px;"><script type="text/javascript">document.write(maintext)</script></div>
 
 <div style="float:right;">
+    <button onclick="javascript:language=(language=='english'?'chinese':'english');createCookie('xsltvlanguage',language,365);window.location.reload();" ><script type="text/javascript">document.write(langbuttontext)</script></button>
 	<span id="barclock"></span>
-			<select id="styleswitcher" name="styleswitcher" onchange="var v=this.options[this.selectedIndex].value; setActiveStyleSheet(v); setActiveStyleSheet(v); return false;">
+			<select id="styleswitcher" name="styleswitcher" onchange="var v=this.options[this.selectedIndex].value; setstylesheet(v); return false;">
 			<option value="AOL">
 				AOL
 			</option>
+            <option value="Eric">
+                Eric
+            </option>
 			<option value="Excite">
 				Excite
 			</option>
@@ -575,11 +752,11 @@ function Init(dl,ch,cd,cm,cy,offset) {
 </div>
 <div id="clock"></div>
 
-<!-- dyz del
+<!-- to del -->
 <div id="preflink">
+<!-- del
 <a href="#" onclick="moveObject('menu', event);moveObject('prefiframe',event);document.getElementById('prefiframe').style.width=document.getElementById('menu').offsetWidth;document.getElementById('prefiframe').style.height=document.getElementById('menu').offsetHeight;"><script type="text/javascript">document.write(preferenceslink)</script></a>
 </div>
--->
 
 <iframe src="javascript:;" scrolling="no" frameborder="0" id="prefiframe" style="display:none;position:absolute;"></iframe>
 <div id="menu">
@@ -655,20 +832,35 @@ function Init(dl,ch,cd,cm,cy,offset) {
 	</div>
 	<a href="#" class="Submit" onClick="window.location.reload();"><script type="text/javascript">document.write(reloadbutton)</script></a>
 
-<!-- dyz add -->
-	<a href="#" class="Submit" style="float: right;" onclick="moveObject('menu', event);moveObject('prefiframe',event);">Close</a>
+	<a href="#" class="Submit" style="float: right;" onclick="moveObject('menu', event);moveObject('prefiframe',event);"><script type="text/javascript">document.write(closebutton)</script></a>
 
+-->
 </div>
+
+<!-- to render -->
 <script type="text/javascript">
-document.getElementById('menu').style.display="none"; /*hide the preferences form*/
+
+// del
+//document.getElementById('menu').style.display="none"; /*hide the preferences form*/
+
 document.getElementById('loading').style.display="block";
 if (window.XMLHttpRequest && window.XSLTProcessor) { //Netscape only
 	var processor = new XSLTProcessor();
-} 
+}
+
+// add
+if (usertag != 'default') {
+    loadTest();
+}
+
 loadXSL(); /*loadXSL starts a chain reaction which does everything, mostly asynchronously */
 </script>
+
+<!-- init ui -->
 <script type="text/javascript">
 /*put the correct values into the prefs window */
+
+/* del
 document.getElementById('hours').selectedIndex=hours-1; 
 document.getElementById('tablewidth').value=tablewidth;
 document.getElementById('popupdelay').value=popupdelay;
@@ -684,7 +876,6 @@ if(popupdescription.toString()=="true"){document.getElementById('popupdescriptio
 if(popupdate.toString()=="true"){document.getElementById('popupdate').checked=true;}else{document.getElementById('popupdate').checked=false;}
 if(popupcategories.toString()=="true"){document.getElementById('popupcategories').checked=true;}else{document.getElementById('popupcategories').checked=false;}
 if(popupstarrating.toString()=="true"){document.getElementById('popupstarrating').checked=true;}else{document.getElementById('popupstarrating').checked=false;}
-selectOption(getActiveStyleSheet(),document.getElementById('styleswitcher').options);
 selectOption(offsetminutes,document.getElementById('offsetminutes').options);
 selectOption(refreshonthe,document.getElementById('refreshonthe').options);
 selectOption(timebarfrequency,document.getElementById('timebarfrequency').options);
@@ -702,15 +893,21 @@ if(highlightnew.toString()=="true"){document.getElementById('highlightnew').chec
 if(printdates.toString()=="true"){document.getElementById('printdates').checked=true;}else{document.getElementById('printdates').checked=false;}
 selectOption(highlightmovies,document.getElementById('highlightmovies').options);
 
-if(showclock.toString()=="false"){document.getElementById('clock').style.display="none";}
-if(showbarclock.toString()=="false"){document.getElementById('barclock').style.display="none";}
-
 switchtab('agridtab','gridfieldset',false);
 switchtab('apopupstab','popupsfieldset',false);
 switchtab('alocaloptionstab','localoptionsfieldset',true);
 switchtab('aotheroptionstab','otheroptionsfieldset',false);
+*/
+
+selectOption(getActiveStyleSheet(),document.getElementById('styleswitcher').options);
+if(showclock.toString()=="false"){document.getElementById('clock').style.display="none";}
+if(showbarclock.toString()=="false"){document.getElementById('barclock').style.display="none";}
 </script>
-<iframe src="javascript:;" scrolling="no" frameborder="0" id="califrame" style="display:none;position:absolute;"></iframe>
+
+<!-- del
+<iframe src="javascript:;" scrolling="no" frameborder="0" id="califrame" style="display:none;position:absolute;"></iframe> 
+-->
+
 <div id='calendarContainer' style="display:none; position:absolute;"></div>
 <script type='text/javascript'>
 			// Initializing the date picker object:
@@ -725,11 +922,199 @@ switchtab('aotheroptionstab','otheroptionsfieldset',false);
 				selectOption(fastDatePicker.date.getFullYear(), document.getElementById('year').options);
 				selectOption(fastDatePicker.date.getMonth(),document.getElementById('month').options);
 				selectOption(fastDatePicker.date.getDate(),document.getElementById('day').options);
-				moveObject('calendarContainer', event);moveObject('califrame',event);document.getElementById('califrame').style.width=document.getElementById('calendarContainer').offsetWidth;document.getElementById('califrame').style.height=document.getElementById('calendarContainer').offsetHeight;			}
+				// edit moveObject('calendarContainer', event);moveObject('califrame',event);document.getElementById('califrame').style.width=document.getElementById('calendarContainer').offsetWidth;document.getElementById('califrame').style.height=document.getElementById('calendarContainer').offsetHeight;
+				moveObject('calendarContainer', event);
+            }
 			document.getElementById('calendarContainer').appendChild(fastDatePicker.calendar());
 			// Showing the calendar:
-		</script>
+</script>
 
+<!-- add channels selection -->
+<div id='channelContainer' style="display:none; position:absolute;"><select class="channelselect" multiple></select></div>
+<script src="dlb/dual-listbox.js"></script>
+<script type='text/javascript'>
+var whichannel; //1-all,2-user
+var chnevent;
+var chnshow = 0;  //0-not init, 1-show, 2-hide
+function channels(event) {
+    if (chnshow == 0) {
+        chnevent = event;
+        whichannel = 1;
+        loadChannels(allfile);
+    }
+    else if (chnshow == 2){
+	moveObject('channelContainer', chnevent);
+    chnshow = 1;
+    }
+}
+function loadChannels(channelfile){
+	document.getElementById('loading').style.display="block";
+	document.getElementById('loading').innerHTML=loadingtext+" " + channelfile;
+    if (window.XMLHttpRequest && window.XSLTProcessor) {
+		channelrequest = new XMLHttpRequest();
+		channelrequest.onreadystatechange = handleChannelsResponse;
+		channelrequest.overrideMimeType('text/json');
+		channelrequest.open("GET", channelfile + '?t=' + tstamp(), true);
+		channelrequest.send(null);
+	}
+	else if (window.ActiveXObject){
+		channelrequest = new ActiveXObject("Msxml2.DOMDocument.3.0");
+		channelrequest.async = true;
+		channelrequest.onreadystatechange = handleChannelsResponse;
+		channelrequest.load(channelfile);
+	}
+	else {
+	    alert('Your browser can\'t handle this script');
+	return;
+	}
+}
+
+function handleChannelsResponse(){
+	if (channelrequest.readyState == 4) {
+		if(channelrequest.status>=300){
+			var errorstring=errortext+" "+channelrequest.status+": "+filetext+" "+ (whichannel == 1 ? allfile : usertag + '.chn') +" "+notfoundtext+".";
+			document.getElementById('loading').innerHTML=errorstring;
+		}else{
+			if (window.XMLHttpRequest && window.XSLTProcessor) { //Netscape only
+                if (whichannel == 1)
+				    allchannels = channelrequest.responseText.split('\n');
+                else if (whichannel == 2)
+				    userchannels = channelrequest.responseText.split('\n');
+			}
+            else if (window.ActiveXObject) {
+                if (whichannels == 1)
+                    allchannels = channelrequest.split('\n');
+                else if (whichannel == 2)
+                    userchannels = channelrequest.split('\n');
+            }
+            if (whichannel == 1) {
+                whichannel = 2;
+                loadChannels('user/' + usertag + '.chn');
+            }
+            else {
+                chnsel = document.querySelector('.channelselect');
+                chnsel.innerHTML = '';
+                for (const v of allchannels) {
+                    if (v == '') continue;
+                    var issel = false;
+                    for (const vv of userchannels) {
+                        if (vv == v) {
+                            issel = true;
+                            break;
+                        }
+                    }
+                    if (! issel) {
+                        var o = document.createElement('option');
+                        o.value = v;
+                        o.text = v;
+                        chnsel.appendChild(o);
+                    }
+                }
+                for (const vv of userchannels) {
+                    var o = document.createElement('option');
+                    o.value = vv;
+                    o.text = vv;
+                    o.selected = true;
+                    chnsel.appendChild(o);
+                }
+                dlb = new DualListbox('.channelselect', {
+                    addAllButtonText: '<i class="f7-icons">chevron_right_circle_fill</i>',
+                    addButtonText: '<i class="f7-icons">chevron_right_circle</i>',
+                    upButtonText: '<i class="f7-icons">chevron_up_circle</i>',
+                    downButtonText: '<i class="f7-icons">chevron_down_circle</i>',
+                    removeButtonText: '<i class="f7-icons">chevron_left_circle</i>',
+                    removeAllButtonText: '<i class="f7-icons">chevron_left_circle_fill</i>',
+                    okButtonText: '<i class="f7-icons">checkmark_circle</i>',
+                    cancelButtonText: '<i class="f7-icons">multiply_circle</i>',
+                    title: false,
+                    listwidth: 200,
+                    listheight: 400,
+                    limit: 50,
+                    okHandle: okchosehandle,
+                    cancelHandle: cancelchosehandle,
+                    addall: addall,
+                    addselected: addselected,
+                    moveup: moveup,
+                    movedown: movedown,
+                    removeselected: removeselected,
+                    removeall: removeall,
+                    language: language,
+                });
+				moveObject('channelContainer', chnevent);
+                chnshow = 1;
+            }
+            document.getElementById('loading').style.display='none';
+		}
+	} else {
+		document.getElementById('loading').style.display="block";
+	}
+}
+
+function okchosehandle(selected) {
+    selarr = selected.map(item => item.textContent);
+    if (usertag == 'default') {
+        usertag = generateUUID();
+        createCookie('xsltvusertag', usertag, 365);
+    }
+    submituser('tag=' + usertag + '&chns=' + encodeURIComponent(selarr.join(',')));
+}
+
+function cancelchosehandle() {
+	moveObject('channelContainer', chnevent);
+    chnshow = 2;
+}
+
+function submituser(params){
+	document.getElementById('loading').style.display="block";
+	document.getElementById('loading').innerHTML=loadingtext;
+    if (window.XMLHttpRequest && window.XSLTProcessor) {
+		userrequest = new XMLHttpRequest();
+		userrequest.onreadystatechange = handlesubmituserresponse;
+		userrequest.open("POST", userchannelphp+ '?t=' + tstamp(), true);
+        userrequest.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+		userrequest.send(params);
+	}
+	else if (window.ActiveXObject){
+		userrequest = new ActiveXObject("Msxml2.DOMDocument.3.0");
+		userrequest.async = true;
+		userrequest.onreadystatechange = handlesubmituserresponse;
+        userrequest.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+		userrequest.load(params);
+	}
+	else {
+	    alert('Your browser can\'t handle this script');
+	return;
+	}
+}
+
+function handlesubmituserresponse() {
+    if (userrequest.readyState == 4) {
+        if (userrequest.status == 200) {
+	    moveObject('channelContainer', chnevent);
+        chnshow = 2;
+        loadXML();
+        }
+        else {
+		    document.getElementById('loading').style.display="none";
+            alert(userrequest.status + ': ' + userrequest.statusText);
+        }
+    }
+    else {
+		document.getElementById('loading').style.display="block";
+    }
+}
+</script>
+
+<!-- add touch to show title for mobile -->
+<script>
+document.body.addEventListener('touchstart', function() {
+  document.body.classList.add('touched');
+});
+</script>
+
+<!-- del
 <script type='text/javascript' src='boxover.js'></script>
+-->
+
 </body>
 </html>

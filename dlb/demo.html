@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>dual-listbox Example</title>
+        <link href="dual-listbox.css" rel="stylesheet" type="text/css">
+        <style>
+        body { background-color:#fafafa; font-family:'Roboto'; }
+        h1 { margin:150px auto 40px auto;}
+        </style>
+    </head>
+    <body>
+    <h1>dual-listbox Example</h1>
+        <select class="select1" multiple>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+            <option value="6">Six</option>
+            <option value="7">Seven</option>
+            <option value="8">Eight</option>
+            <option value="9">Nine</option>
+            <option value="10">Ten</option>
+        </select>
+
+        <script src="dual-listbox.js"></script>
+        <script>
+            dlb1 = new DualListbox('.select1', {
+                addAllButtonText: '>>',
+                addButtonText: '>',
+                upButtonText: '∧',
+                downButtonText: '∨',
+                removeButtonText: '<',
+                removeAllButtonText: '<<',
+                title: false,
+                listwidth: 300,
+                listheight: 300,
+                limit: 20,
+            });
+        </script>
+    </body>
+</html>

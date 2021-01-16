@@ -1,0 +1,129 @@
+/* custom style */
+
+/* for stylesheets/*.css */
+html {
+    overflow-y: overlay;
+}
+body {
+    margin: 0px;
+}
+button {
+    font-family: arial, sans-serif;
+    font-size: 8pt;
+}
+td.extendleft {
+    background-position: center center;
+    padding: 0px 4px;
+}
+td.extendright {
+    background-position: center center;
+}
+td.program{
+    font-weight: normal;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+td{
+    padding-left: 1px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+th.channel {
+    padding: 0px;
+}
+
+th.time{
+    padding-left:2px;
+}
+th.topleftcorner{
+    width:90px;
+    background-position:center center;
+    text-align: center;
+    font-size: 8px;
+}
+th.toprightcorner {
+    width:30px;
+    background-position:center center;
+    text-align: center;
+    font-size: 8px;
+}
+#fastDatePickerTable td {
+    font-family: arial, sans-serif;
+    font-size: 8pt;
+    height: auto;
+}
+#gridtime {
+    background-image: none;
+}
+.dual-listbox__info {
+    font-size: 10pt;
+}
+.leftchanneltable{
+    width:90px;
+    height:100%;
+    text-align: center;
+}
+.leftchanneltable .leftlogocell {
+    display: none;
+}
+.leftchanneltable .leftnumbercell {
+    display: none;
+}
+.leftchanneltable .middlecell  {
+    text-align: center;
+}
+.leftchanneltable .leftnumber{
+	display:none;
+}
+.leftchanneltable .leftchannelbr {
+    display: none;
+}
+.leftchanneltable .rightnumber{
+	display:none;
+}
+.leftchanneltable .rightnumbercell{
+	display:none;
+}
+#gridtime {
+    border: 0px;
+    margin-bottom: 0px;
+}
+#listings td {
+    height: 30px;
+}
+.rightchanneltable{
+	width:100%;
+}
+.rightchanneltable .leftnumbercell{
+    text-align: center;
+}
+.rightchanneltable .channelname {
+    display: none;
+}
+.rightchanneltable .rightchannelbr {
+    display: none;
+}
+
+/* for dual-listbox.css */
+.dual-listbox {
+    border: 2px solid black;
+}
+.dual-listbox .dual-listbox__search {
+    padding: 5px;
+}
+.dual-listbox .dual-listbox__available,.dual-listbox .dual-listbox__selected {
+    margin: 0;
+}
+.dual-listbox .dual-listbox__button {
+    padding: 8px;
+    color: initial;
+    font-size: 14pt;
+}
+.dual-listbox .dual-listbox__item {
+    padding: 5px;
+    border-bottom: 1px solid lightgrey;
+    font-size: 8pt;
+}
+.dual-listbox .dual-listbox__item.dual-listbox__item--selected {
+    background-color: silver;
+}

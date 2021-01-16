@@ -3,6 +3,7 @@
 By Oliver Bryant with help of Matthew Tagg
 http://boxover.swazz.org */
 
+/* del
 if (typeof document.attachEvent!='undefined') {
    window.attachEvent('onload',init);
    document.attachEvent('onmousemove',moveMouse);
@@ -12,6 +13,7 @@ else {
    document.addEventListener('mousemove',moveMouse,false);
    document.addEventListener('click',checkMove,false);
 }
+*/
 
 var oDv=document.createElement("div");
 var dvHdr=document.createElement("div");
@@ -404,21 +406,27 @@ function getPreferredStyleSheet() {
   return null;
 }
 
+function setstylesheet(title) {
+    createCookie("xsltvstyle", title, 365);
+    window.location.reload();
+}
+
+/*
 window.onload = function(e) {
-  var cookie = readCookie("style");
+  var cookie = readCookie("xsltvstyle");
   var title = cookie ? cookie : getPreferredStyleSheet();
   setActiveStyleSheet(title);
 }
 
 window.onunload = function(e) {
   var title = getActiveStyleSheet();
-  createCookie("style", title, 365);
+  createCookie("xsltvstyle", title, 365);
 }
+*/
 
-var cookie = readCookie("style");
+var cookie = readCookie("xsltvstyle");
 var title = cookie ? cookie : getPreferredStyleSheet();
 setActiveStyleSheet(title);
-
 /*END style switching stuff */
 
 /*RealTime Clock stuff */
@@ -691,7 +699,13 @@ function FastDatePicker() {
 		var numDaysInMonth = this.numDaysInMonth()
 		var dayCounter = 1
 
-		this.cellYearMonth.firstChild.nodeValue = this.monthNames[this.date.getMonth()]+' '+this.date.getFullYear()
+        // edit
+        if (language == 'chinese') {
+		    this.cellYearMonth.firstChild.nodeValue = this.date.getFullYear() + '年' + this.monthNames[this.date.getMonth()]
+        }
+        else {
+		    this.cellYearMonth.firstChild.nodeValue = this.monthNames[this.date.getMonth()]+' '+this.date.getFullYear()
+        }
 
 		var start = this.date.getDay()
 		if (!this.weekStartsWithSunday) start = (start == 0) ? 6 : start - 1
@@ -771,8 +785,10 @@ function FastDatePicker() {
 function sizeform(){
 		if (document.getElementById('autosize').checked) {
 			document.getElementById('tablewidth').disabled=true;
+            /* del
 			document.getElementById('tablewidth').value=(350+(document.getElementById('hours').selectedIndex  * 150));
 			var v=Number(document.getElementById('tablewidth').value); createCookie('tablewidth',v,365);
+            */
 		} else {
 			document.getElementById('tablewidth').disabled=false;
 		}
@@ -899,7 +915,7 @@ function moveObject( obj, e ) {
 
   // step 6
   show_hide(objHolder);
-  }
+}
 /*END POSITIONING SCRIPTS*/
 
 /*these two scripts fill in the month and year selection boxes*/

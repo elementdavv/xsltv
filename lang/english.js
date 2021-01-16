@@ -1,9 +1,17 @@
+var maintext=					'TV Guide, updated everyday';
 var loadingtext =				'Loading';
 var errortext =					'Error';
 var filetext =					'File';
 var notfoundtext =				'not found';
+var addall=				'add all';
+var addselected=				'add selected';
+var moveup=				'move up';
+var movedown=				'move down';
+var removeselected=				'remove selected';
+var removeall =				'remove all';
 
 var preferenceslink =			'Preferences';
+var channelslink =				'Channels';
 var datepickerbutton =			'Go!';
 var earliertext =				'Earlier';
 var latertext =					'Later';
@@ -48,6 +56,7 @@ var popupstarratinglabel =		'Star Rating';
 
 var localoptionstab =			'Local Options';
 var languagelabel =				'Language';
+var langbuttontext=				'中文';
 var fixgapslabel =				'Fix gaps in listings';
 	var fixgapshint =			'Check to enable gap-detection in listings which are not contiguous. This option requires listings to be sorted with --by-channel to work. This option will cause listings to load much more slowly, so do not check unnecessarily.';
 	var fixgapsconfirm =		'To fill gaps in listings, please ensure the XML file has been sorted with the --by-channel option!';
@@ -82,6 +91,7 @@ var showclocklabel =			'Show clock in upper right';
 var showbarclocklabel =			'Show clock in top bar';
 	var showbarclockhint =		'Check to show current time in the top bar.';
 var reloadbutton =				'Reload';
+var closebutton =				'Close';
 
 var monthnames =				new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
 var shortmonthnames =			new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');

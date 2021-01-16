@@ -58,12 +58,16 @@
 
 <xsl:variable name="StartTimeString" select="concat($CurrentYear, format-number($CurrentMonth,'00'), format-number($CurrentDay,'00'), format-number($CurrentHour,'00'), '00')" /> <!-- These are for selecting the appropriate programmes -->
 <xsl:variable name="StopTimeString" select="concat($StopYear, format-number($StopMonth,'00'), format-number($StopDay,'00'), format-number($StopHour,'00'), '00')" /> <!-- These are for selecting the appropriate programmes -->
-<xsl:variable name="programmes" select="/tv/programme[((substring(@stop,1,12) &gt; $StartTimeString and substring(@stop,1,12) &lt;= $StopTimeString) or (substring(@start,1,12) &gt;= $StartTimeString and substring(@start,1,12) &lt; $StopTimeString) or (substring(@start,1,12) &lt;= $StartTimeString and substring(@stop,1,12) &gt;= $StopTimeString))]"/>
+
+<!-- edit fix error start/stop time
+<xsl:variable name="programmes" select="/tv/programme[((substring(@stop,1,12) &gt; $StartTimeString and substring(@stop,1,12) &lt;= $StopTimeString) or (substring(@start,1,12) &gt;= $StartTimeString and substring(@start,1,12) &lt; $StopTimeString) or (substring(@start,1,12) &lt;= $StartTimeString and substring(@stop,1,12) &gt;= $StopTimeString))]"/> 
+-->
+<xsl:variable name="programmes" select="/tv/programme[((substring(@stop,1,12) &gt; $StartTimeString and substring(@stop,1,12) &lt;= $StopTimeString) or (substring(@start,1,12) &gt;= $StartTimeString and substring(@start,1,12) &lt; $StopTimeString) or (substring(@start,1,12) &lt;= $StartTimeString and substring(@stop,1,12) &gt;= $StopTimeString)) and (substring(@stop, 1, 12) &gt; substring(@start, 1, 12))]"/>
 
 <table id="listings">
 
 <xsl:for-each select="/tv/channel">
-<!-- dyz del <xsl:sort select="display-name[3]" data-type="number"></xsl:sort> -->
+<!-- del <xsl:sort select="display-name[3]" data-type="number"></xsl:sort> -->
 
 <xsl:choose>
 	<xsl:when test="(position() mod $TimeBarFrequency = 1) or (position() = 1)">
@@ -86,8 +90,8 @@
 		<xsl:value-of select="$LaterText"/>
 	</th>
     </tr>
-			</xsl:when>
-		</xsl:choose>
+	</xsl:when>
+</xsl:choose>
 
 <xsl:variable name="channelnumber">
 	<xsl:choose>
@@ -102,7 +106,7 @@
 		</xsl:when>
 		<xsl:when test="$Grabber = 'tv_grab_se' or $Grabber = 'tv_grab_de'"><xsl:text> </xsl:text></xsl:when>
 		<xsl:when test="$Grabber = 'tv_grab_huro'">
-<!-- dyz edit			<xsl:value-of select="substring(./@id,1,3)"/> -->
+<!-- edit			<xsl:value-of select="substring(./@id,1,3)"/> -->
 			<xsl:value-of select="substring(./@id,1,4)"/>
 		</xsl:when>
 		<xsl:otherwise>
@@ -145,11 +149,12 @@
 	</xsl:choose>
 </xsl:variable>
 
-			<xsl:variable name="iconname">
-    				<xsl:call-template name="filename">
-					<xsl:with-param name="x" select="icon/@src"/>
-				</xsl:call-template>
-			</xsl:variable>
+<xsl:variable name="iconname">
+	<xsl:call-template name="filename">
+		<xsl:with-param name="x" select="icon/@src"/>
+	</xsl:call-template>
+</xsl:variable>
+
 	<tr>
 		<xsl:choose>
 			<xsl:when test="(position() mod 2 = 1)">
@@ -166,6 +171,7 @@
 		<th class="channel">
 			<xsl:if test="$ChannelPopups">
 				<xsl:attribute name="title">
+                    <!-- edit
 					<xsl:text>header=[</xsl:text>
 					<xsl:if test="string-length($iconname) &gt; 0">
 						<xsl:text>&lt;img src="</xsl:text>
@@ -185,6 +191,8 @@
 					<xsl:text>] cssheader=[popupheader] cssbody=[popupbody] delay=[</xsl:text>
 					<xsl:value-of select="$PopupDelay"/>
 					<xsl:text>]</xsl:text>
+                    -->
+                    <xsl:value-of select="$channellongname" />
 				</xsl:attribute>
 			</xsl:if>
 		<table class="leftchanneltable"><tr><td class="leftlogocell"><xsl:if test="string-length($iconname) &gt; 0"><img><xsl:attribute name="src">
@@ -246,7 +254,7 @@
 			<xsl:choose>
 				<xsl:when test="@stop">
 					<xsl:choose>
-<!-- dyz edit					<xsl:when test="((number(substring(@stop,9,2))*60)+number(substring(@stop,11,2))) > ((number(substring(@start,9,2))*60)+number(substring(@start,11,2)))"> -->
+<!-- edit			<xsl:when test="((number(substring(@stop,9,2))*60)+number(substring(@stop,11,2))) > ((number(substring(@start,9,2))*60)+number(substring(@start,11,2)))"> -->
 						<xsl:when test="((number(substring(@stop,9,2))*3600)+(number(substring(@stop,11,2))*60)+number(substring(@stop,13,2))) > ((number(substring(@start,9,2))*3600)+(number(substring(@start,11,2))*60)+number(substring(@start,13,2)))">
 							<xsl:value-of select="(((number(substring(@stop,9,2))*60)+number(substring(@stop,11,2)))-((number(substring(@start,9,2))*60)+number(substring(@start,11,2))))"/>
 						</xsl:when>
@@ -329,7 +337,7 @@
 				<!-- Program starts before and concludes after display window. Least likely. -->
 				<xsl:attribute name="colspan"><xsl:value-of select="(($Length - ($StopTime - $StopDisplayCode) - ($StartDisplayCode - $StartTime)))"/></xsl:attribute>
 			</xsl:when>
-			</xsl:choose>
+		</xsl:choose>
 					<xsl:attribute name="class">
 						<xsl:if test="$Categories">
 							<xsl:value-of select="substring(episode-num[@system='dd_progid'],1,2)"/><xsl:text> </xsl:text>
@@ -357,16 +365,17 @@
 					</xsl:attribute>
 					<xsl:if test="$DescriptionPopups">
 						<xsl:attribute name="title">
-							<xsl:text>header=[</xsl:text>
+                            <!-- edit
+                            <xsl:text>header=[</xsl:text>
 							<xsl:value-of select="title" />
-							<xsl:text>] body=[</xsl:text>
+                            <xsl:text>] body=[</xsl:text>
 							<xsl:if test="$PopupTimes or ($PopupRating and rating) or ($PopupSubtitle and sub-title) or ($PopupDescription and desc) or ($PopupDate and date) or ($PopupCategories and category) or ($PopupStarRating and star-rating)">
 							<xsl:if test="$PopupTimes">
 								&lt;span class="popuptimes"&gt;
 								<xsl:value-of select="number(substring(@start,9,2))"/>:<xsl:value-of select="substring(@start,11,2)"/>-<xsl:choose><xsl:when test="@stop"><xsl:value-of select="number(substring(@stop,9,2))"/>:<xsl:value-of select="substring(@stop,11,2)"/></xsl:when><xsl:otherwise>???</xsl:otherwise></xsl:choose>
 								&lt;/span&gt;
 							</xsl:if>
-							<xsl:if test="$PopupRating">
+							<xsl:if test="$PopupRating and rating">
 								&lt;span class="popuprating"&gt;<xsl:value-of select="rating/value" />&lt;/span&gt;
 							</xsl:if>
 							<xsl:if test="($PopupTimes or ($PopupRating and rating)) and (($PopupSubtitle and sub-title) or ($PopupDescription and desc))">
@@ -378,7 +387,7 @@
 								&lt;/span&gt;
 								&lt;br /&gt;
 							</xsl:if>
-							<xsl:if test="$PopupDescription">
+							<xsl:if test="$PopupDescription and desc">
 								&lt;span class="popupdesc"&gt;
 								<xsl:choose>
 									<xsl:when test="$DescriptionBR">
@@ -409,7 +418,6 @@
 									</xsl:when>
 								</xsl:choose>
 								&lt;/span&gt;
-
 							</xsl:if>
 							<xsl:if test="$PopupDate and $Grabber='tv_grab_de' and string(number(category))!='NaN'">
 								<xsl:if test="$PopupTimes or ($PopupRating and rating) or ($PopupSubtitle and sub-title) or ($PopupDescription and desc)">&lt;hr class="popuphr2"/&gt;</xsl:if>
@@ -479,6 +487,12 @@
 							<xsl:text>] cssheader=[popupheader] cssbody=[popupbody] delay=[</xsl:text>
 							<xsl:value-of select="$PopupDelay"/>
 							<xsl:text>]</xsl:text>
+                            -->
+							<xsl:value-of select="title" />
+                            <xsl:text>&#10;</xsl:text>
+							<xsl:value-of select="number(substring(@start,9,2))"/>:<xsl:value-of select="substring(@start,11,2)"/>-<xsl:choose><xsl:when test="@stop"><xsl:value-of select="number(substring(@stop,9,2))"/>:<xsl:value-of select="substring(@stop,11,2)"/></xsl:when><xsl:otherwise>???</xsl:otherwise></xsl:choose>
+                            <xsl:text>&#10;</xsl:text>
+							<xsl:value-of select="desc"/>
 						</xsl:attribute>
 					</xsl:if>
 
@@ -499,13 +513,16 @@
 
 		</td>
 		<xsl:if test="$FixGaps = 1 and position()!=last() and number($StopTime) &lt; number($NextStartTime)"><td class="empty" colspan="{number($NextStartTime)-number($StopTime)}"></td></xsl:if>
-		<xsl:if test="position()=last() and number($StopTime) &lt; number($StopDisplayCode)"><td class="empty" colspan="{number($StopDisplayCode)-number($StopTime)}"></td></xsl:if>
+		<!-- edit for no program <xsl:if test="position()=last() and number($StopTime) &lt; number($StopDisplayCode)"><td class="empty" colspan="{number($StopDisplayCode)-number($StopTime)}"></td></xsl:if> -->
+		<xsl:if test="position()=last() and number($StopTime) &lt; number($StopDisplayCode)"><td class="" colspan="{number($StopDisplayCode)-number($StopTime)}"></td></xsl:if>
 		</xsl:for-each>
 		<!--check for a row with no programs and fill it in with an empty row-->
-		<xsl:if test="not($theseprogrammes)"><td class="empty" colspan="{number($StopDisplayCode)-number($StartDisplayCode)}"></td></xsl:if>
+        <!-- edit xsl:if test="not($theseprogrammes)"><td class="empty" colspan="{number($StopDisplayCode)-number($StartDisplayCode)}"></td></xsl:if> -->
+		<xsl:if test="not($theseprogrammes)"><td class="" colspan="{number($StopDisplayCode)-number($StartDisplayCode)}"></td></xsl:if>
 		<th class="channel">
 			<xsl:if test="$ChannelPopups">
 				<xsl:attribute name="title">
+                    <!-- del
 					<xsl:text>header=[</xsl:text>
 					<xsl:if test="string-length($iconname) &gt; 0">
 						<xsl:text>&lt;img src="</xsl:text>
@@ -526,6 +543,7 @@
 					<xsl:text>] cssheader=[popupheader] cssbody=[popupbody] delay=[</xsl:text>
 					<xsl:value-of select="$PopupDelay"/>
 					<xsl:text>]</xsl:text>
+                    -->
 				</xsl:attribute>
 			</xsl:if>
 		<table class="rightchanneltable"><tr><td class="leftlogocell"><xsl:if test="string-length($iconname) &gt; 0"><img><xsl:attribute name="src">						<xsl:choose>

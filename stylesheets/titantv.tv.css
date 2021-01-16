@@ -102,18 +102,16 @@ td.program{
 	text-align:left;
 	font-family:arial, sans-serif;
 	font-size: 8pt;
-/* dyz del	font-weight:bold; */
+	font-weight:bold;
 	margin:0px;
 	padding:1px;
 	border:0px;
 	overflow: hidden;
-/* dyz del	vertical-align:top; */
+	vertical-align:top;
 	height:30px;
 	width:100%;
 	background-color:transparent;
 	color:black;
-/* dyz add */
-	white-space: nowrap;
 }
 .Clickable{
 color:#BBBBBB;
@@ -123,13 +121,13 @@ tr.oddrow td{
 
 td{
 	margin-left:1px;
-/* dyz del	padding-left:8px; */
+	padding-left:8px;
 	padding-right:0px;
 	padding-top:0px;
 	padding-bottom:0px;
 	border:1px solid black;
 	overflow: hidden;
-/* dyz del	vertical-align:top; */
+	vertical-align:top;
 	height:30px;
 	background-color:#EDEDED;
 	}
@@ -158,12 +156,11 @@ th.channel{
 	font-size:8pt
 	}
 tr.timebar{
-/* dyz edit	background-color:#DEE7EF; */
-	background-color:#DEE7AF;
+	background-color:#DEE7EF;
 }
 th.time{
 	text-align:left;
-	padding:0px;
+    padding:0px;
 	margin:0px;
 	border:1px solid black;
 	text-decoration:none;
@@ -175,13 +172,11 @@ th.time{
 
 th.topleftcorner{
 	height: 13px;
-/* dyz edit	width:80px; */
-	width:90px;
+	width:80px;
 	border:1px solid black;
 	background-image:url(../images/titantvearlier.gif);
 	background-repeat:no-repeat;
-/* dyz edit	background-position:left center; */
-	background-position:center center;
+	background-position:left center;
 	text-decoration:none;
 	color:black;
 	font-size:12pt;
@@ -192,13 +187,11 @@ th.topleftcorner{
 
 th.toprightcorner {
 	height: 13px;
-/* dyz edit	width:13px; */
-	width:30px;
+	width:13px;
 	border:1px solid black;
 	background-image:url(../images/titantvlater.gif);
 	background-repeat:no-repeat;
-/* dyz edit	background-position:right center; */
-	background-position:center center;
+	background-position:right center;
 	text-decoration:none;
 	color:black;
 	font-size:12pt;
@@ -306,12 +299,10 @@ padding: 2px;
 border: 2px solid black;
 background-color: lightyellow;
 color:black;
-/* dyz edit width: 150px; */
-width: 250px;
+width: 150px;
 Font-Family:'arial';
-/* dyz edit font-size:11pt; */
-font-size:10pt;
-/* dyz del font-weight:bold; */
+font-size:11pt;
+font-weight:bold;
 }
 
 .popupbody{
@@ -320,11 +311,9 @@ border: 2px solid black;
 border-top: 0px;
 background-color: lightyellow;
 color:black;
-/* dyz edit width: 150px; */
-width: 250px;
+width: 150px;
 Font-Family:'arial';
-/* dyz edit font-size:11pt; */
-font-size:10pt;
+font-size:11pt;
 font-weight:normal;
 }
 
@@ -379,8 +368,7 @@ hr{
 .leftchanneltable{
 	table-layout:fixed;
 	border-collapse: collapse;
-/* dyz edit	width:80px; */
-	width:90px;
+	width:80px;
 	margin:0px;
 	border:0px;
 	background-color:transparent;
@@ -406,10 +394,7 @@ hr{
 	.leftchanneltable .rightnumber{display:none;}
 .leftchanneltable .rightlogocell{display:none;}
 .leftchanneltable .rightnumbercell{
-/* dyz add */
-	display:none;
-/* dyz edit width:20px */
-	width:30px;
+    width:20px;
 	background-color:transparent;
 	padding:0px;
 	overflow: visible;
@@ -421,8 +406,7 @@ hr{
 .rightchanneltable{
 	table-layout:fixed;
 	border-collapse: collapse;
-/* dyz edit	width:13px; */
-	width:30px;
+	width:13px;
 	margin:0px;
 	border:0px;
 	background-color:transparent;
@@ -435,8 +419,7 @@ hr{
 	display:none;
 }
 .rightchanneltable .leftnumbercell{
-/* dyz edit	width:13px; */
-	width:30px;
+	width:13px;
 	background-color:transparent;
 	padding:0px;
 	overflow: visible;
