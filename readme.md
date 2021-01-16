@@ -2,13 +2,14 @@
 * setup nginx
 * setup php
 * copy to www root
+* setup crontab
 
 ## newepg.py -d
 * get e.xml, and produce all.chn
 * run on crontab, get everyday e.xml
 
 ## e.xml
-epg file from http://epg.51zmt.top:8000/e.xml
+epg file from [51zmt](http://epg.51zmt.top:8000/e.xml)
 
 ## all.chn
 complete channel list
