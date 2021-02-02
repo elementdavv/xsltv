@@ -17,11 +17,12 @@
 <meta charset = 'utf-8'>
 
 <!-- add -->
-<meta name="generator" content="timelegend.net" />
+<meta name="generator" content="Timelegend.net" />
 <meta name="description" content="每天更新的全国电视频道节目指南，实时查看" />
 <meta name="keywords" content="电视 节目 指南 预告 节目单 节目表 时间表 全国 电子 实时 收视 更新 tv guide" />
-<meta name="author" content="vinctai" />
+<meta name="author" content="Ynez Dane" />
 <meta property="og:title" content="电视节目指南" />
+<meta property="og:type" content="website" />
 <meta property="og:url" content="https://timelegend.net/tvguide" />
 <meta property="og:image" content="https://timelegend.net/user/images/2021-01-15_01-06.png" />
 <meta name="twitter:card" content="summary" />
@@ -52,6 +53,12 @@
 <link rel="stylesheet" type="text/css" href="f7/framework7-icons.css" />
 <link rel="stylesheet" type="text/css" href="stylesheets/custom.css" />
 
+<!-- link rel="preload" href="f7/Framework7Icons-Regular.eot" as="font" type="application/vnd.ms-fontobject" -->
+<link rel="preload" href="f7/Framework7Icons-Regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous">
+<!-- link rel="preload" href="f7/Framework7Icons-Regular.woff" as="font" type="font/woff" crossOrigin="anonymous"-->
+<!-- link rel="preload" href="f7/Framework7Icons-Regular.ttf" as="font" type="font/ttf" crossOrigin="anonymous"-->
+<!-- link rel="preload" href="f7/Framework7Icons-Regular.svg" as="font" type="image/svg+xml" crossOrigin="anonymous"-->
+
 <!-- add touch to show title for mobile -->
 <style>
 body.touched [title] > * {
@@ -61,7 +68,7 @@ body.touched [title]:hover > * {
 	user-select: none
 }
 body.touched [title]:hover:after {
-    position: fixed;
+    position: absolute;
 	content: attr(title);
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: white;
@@ -209,14 +216,18 @@ cookie = readCookie("xsltvcategorycolors"); var categorycolors = cookie ? cookie
 cookie = readCookie("xsltvdailyfiles"); var dailyfiles = cookie ? cookie : false;
 cookie = readCookie("xsltvtwelvehour"); var twelvehour = cookie ? cookie : false;
 cookie = readCookie("xsltvloadonclick"); var loadonclick = cookie ? cookie : 'nothing';
-cookie = readCookie("xsltvlanguage"); var language = cookie ? cookie : 'chinese';
+// del cookie = readCookie("xsltvlanguage"); var language = cookie ? cookie : 'chinese';
 cookie = readCookie("xsltvhighlightclickable"); var highlightclickable = cookie ? cookie : false;
 cookie = readCookie("xsltvhighlightmovies"); var highlightmovies = cookie ? Number(cookie) : 10;
 cookie = readCookie("xsltvhighlightnew"); var highlightnew = cookie ? cookie : false;
 cookie = readCookie("xsltvprintdates"); var printdates = cookie ? cookie : true;
 cookie = readCookie("xsltvtimebarfrequency"); var timebarfrequency = cookie ? cookie : 10;
 cookie = readCookie("xsltvshowclock"); var showclock = cookie ? cookie : false;
-cookie = readCookie("xsltvshowbarclock"); var showbarclock = cookie ? cookie : true;
+cookie = readCookie("xsltvshowbarclock"); var showbarclock = cookie ? cookie : false;
+
+// add get language from browser setting
+lang = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+language = lang.substr(0,2);
 
 // add: read user id from cookie
 cookie = readCookie("xsltvusertag"); var usertag = cookie ? cookie : 'default';
@@ -293,6 +304,9 @@ function handleTestResponse(){
             if (! v || v < today) {
                 window.location.replace(usertvphp + '?tag=' + usertag);
             }
+            else {
+                loadXSL();
+            }
 		}
 	} else {
 		document.getElementById('loading').style.display="block";
@@ -328,10 +342,7 @@ if(grabber=="tv_grab_fr"){
 <!-- edit use full width and autoresize and make it a method-->
 function resize(){
     if (autosize.toString() == 'true') {
-        tablewidth = window.innerWidth;
-        if (tablewidth < 1024) {
-            tablewidth = 1024;
-        }
+        tablewidth = window.innerWidth > 768 ? window.innerWidth : 768;
     }
     if (document.implementation && document.implementation.createDocument) { //Netscape only
         document.getElementById('topstyle').sheet.insertRule("#listings { width: "+ tablewidth +"px }", document.getElementById('topstyle').sheet.cssRules.length )
@@ -703,7 +714,9 @@ function Init(dl,ch,cd,cm,cy,offset) {
 <div style="float: left;color: red;padding-left: 40px;"><script type="text/javascript">document.write(maintext)</script></div>
 
 <div style="float:right;">
+<!-- del
     <button onclick="javascript:language=(language=='english'?'chinese':'english');createCookie('xsltvlanguage',language,365);window.location.reload();" ><script type="text/javascript">document.write(langbuttontext)</script></button>
+-->
 	<span id="barclock"></span>
 			<select id="styleswitcher" name="styleswitcher" onchange="var v=this.options[this.selectedIndex].value; setstylesheet(v); return false;">
 			<option value="AOL">
@@ -753,7 +766,7 @@ function Init(dl,ch,cd,cm,cy,offset) {
 <div id="clock"></div>
 
 <!-- to del -->
-<div id="preflink">
+<div id="preflink" style="display:none">
 <!-- del
 <a href="#" onclick="moveObject('menu', event);moveObject('prefiframe',event);document.getElementById('prefiframe').style.width=document.getElementById('menu').offsetWidth;document.getElementById('prefiframe').style.height=document.getElementById('menu').offsetHeight;"><script type="text/javascript">document.write(preferenceslink)</script></a>
 </div>
@@ -852,8 +865,9 @@ if (window.XMLHttpRequest && window.XSLTProcessor) { //Netscape only
 if (usertag != 'default') {
     loadTest();
 }
-
-loadXSL(); /*loadXSL starts a chain reaction which does everything, mostly asynchronously */
+else {
+    loadXSL(); /*loadXSL starts a chain reaction which does everything, mostly asynchronously */
+}
 </script>
 
 <!-- init ui -->
@@ -937,14 +951,14 @@ var whichannel; //1-all,2-user
 var chnevent;
 var chnshow = 0;  //0-not init, 1-show, 2-hide
 function channels(event) {
+    chnevent = event;
     if (chnshow == 0) {
-        chnevent = event;
         whichannel = 1;
         loadChannels(allfile);
     }
     else if (chnshow == 2){
-	moveObject('channelContainer', chnevent);
-    chnshow = 1;
+	    moveObject('channelContainer', chnevent);
+        chnshow = 1;
     }
 }
 function loadChannels(channelfile){
@@ -1090,9 +1104,9 @@ function submituser(params){
 function handlesubmituserresponse() {
     if (userrequest.readyState == 4) {
         if (userrequest.status == 200) {
-	    moveObject('channelContainer', chnevent);
-        chnshow = 2;
-        loadXML();
+	        moveObject('channelContainer', chnevent);
+            chnshow = 2;
+            loadXML();
         }
         else {
 		    document.getElementById('loading').style.display="none";

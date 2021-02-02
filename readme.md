@@ -1,5 +1,5 @@
 # description
-please goto [timelegend.net](https://timelegend.net/tvguide)
+please goto [Timelegend.net](https://timelegend.net/tvguide)
 
 ## install
 * setup nginx

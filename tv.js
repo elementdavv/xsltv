@@ -1,4 +1,4 @@
-/* --- BoxOver ---
+/* --- BoxOver ---*/
 /* --- v 1.9 12 December 2005
 By Oliver Bryant with help of Matthew Tagg
 http://boxover.swazz.org */
@@ -13,7 +13,6 @@ else {
    document.addEventListener('mousemove',moveMouse,false);
    document.addEventListener('click',checkMove,false);
 }
-*/
 
 var oDv=document.createElement("div");
 var dvHdr=document.createElement("div");
@@ -374,6 +373,7 @@ function hideSelects(){
    elements[i].style.visibility='hidden';
    }
 }
+*/
 /*END popup stuff */
 
 /* Style Switching Stuff */
@@ -430,6 +430,7 @@ setActiveStyleSheet(title);
 /*END style switching stuff */
 
 /*RealTime Clock stuff */
+/* del
 var mydate=new Date(currenttime);
 
 function addzero(t){
@@ -449,9 +450,12 @@ function displaytime(){
 		if(mydate.getMinutes()==refreshonthe && mydate.getSeconds()==0){var newdate=new Date(mydate);newdate.setMinutes(newdate.getMinutes() + (60 - offsetminutes));Init(hours,newdate.getHours(),newdate.getDate(),newdate.getMonth()+1,newdate.getFullYear());}
    }
 }
+
 window.onload=function(){
    setInterval("displaytime()", 1000);
 }
+*/
+
 /*END clock stuff */
 
 /*show_hide toggles an html div. Second parameter is optional (True or False)*/
@@ -795,6 +799,7 @@ function sizeform(){
 }
 /*END SIZEFORM*/
 
+/*
 function checkNumeric(objName,minval, maxval)
 <!-- http://www.shiningstar.net -->
 {
@@ -811,7 +816,7 @@ function checkNumeric(objName,minval, maxval)
 	}
 }
 
-/*CHECKNUMERIC functions to validate numeric form fields*/
+// CHECKNUMERIC functions to validate numeric form fields
 function chkNumeric(objName,minval,maxval)
 {
 var checkOK = "0123456789";
@@ -854,6 +859,7 @@ alert(alertsay);
 return (false);
 }
 }
+*/
 /*END CHECKNUMERIC*/
 
 /*selectOption - utility for choosing an option in a select box based on value rather than index*/
@@ -882,7 +888,7 @@ function getObject( obj ) {
 
   //step 4
   return obj;
-  }
+}
 function moveObject( obj, e ) {
 
   // step 1
@@ -943,6 +949,7 @@ for(var i = 0; i<12; i++) {
 }
 /*END YEAR-MONTH SELECTION*/
 
+/*
 function switchtab(tabelement,fieldsetelement,on){
 	if(on){
 	show_hide(fieldsetelement,true);
@@ -962,3 +969,4 @@ function switchtab(tabelement,fieldsetelement,on){
 	}
 	document.getElementById('prefiframe').style.width=document.getElementById('menu').offsetWidth;document.getElementById('prefiframe').style.height=document.getElementById('menu').offsetHeight;
 }
+*/
