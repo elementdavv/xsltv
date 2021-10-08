@@ -1,0 +1,9 @@
+#gridtime {
+    background-color: inherit;
+}
+tr.timebar, th.channel, td {
+    background-color: #282828;
+}
+th.topleftcorner, th.time, th.toprightcorner, .leftchanneltable, .rightchanneltable, td {
+    color: #dadada;
+}

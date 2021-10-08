@@ -6,10 +6,17 @@ html {
 }
 body {
     margin: 0px;
+    background-color: inherit;
+    background: none;
 }
 button {
     font-family: arial, sans-serif;
     font-size: 8pt;
+}
+.gridtimetitle {
+    float: left;
+    color: red;
+    padding-left: 40px;
 }
 td.extendleft {
     background-position: center center;

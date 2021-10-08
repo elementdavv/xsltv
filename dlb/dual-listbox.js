@@ -174,7 +174,7 @@
             }, {
                 key: "updateInfo",
                 value: function() {
-                    if (this.language == 'chinese') {
+                    if (this.language == 'zh') {
                         var text = '已选择 ' + this.selected.length + ' 个';
                         this.limit > 0 && (text += '. 最多可选 ' + this.limit + ' 个');
                     }

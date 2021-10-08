@@ -1,0 +1,15 @@
+.gridtimetitle {
+    color: darkred;
+}
+#gridtime {
+    background-color: #699;
+}
+tr.timebar, th.channel {
+    background-color: #666;
+}
+td {
+    background-color: #212121;
+}
+tr.timebar th, th.channel, td {
+    color: #dadada;
+}

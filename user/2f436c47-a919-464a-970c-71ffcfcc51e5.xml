@@ -3,1614 +3,1758 @@
   <channel id="7">
     <display-name lang="zh">CCTV6</display-name>
   </channel>
-  <programme start="20210202011905 +0800" channel="7" stop="20210202024541 +0800">
-    <title lang="zh">床下有人</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202024541 +0800" channel="7" stop="20210202042637 +0800">
-    <title lang="zh">飘来飘去</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202042637 +0800" channel="7" stop="20210202063731 +0800">
-    <title lang="zh">编舟记</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202063731 +0800" channel="7" stop="20210202070554 +0800">
-    <title lang="zh">第二届电影类型短片创投季作品《喜劫良缘》</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202070554 +0800" channel="7" stop="20210202085452 +0800">
-    <title lang="zh">八仙传之铁拐李济世</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202085452 +0800" channel="7" stop="20210202103517 +0800">
-    <title lang="zh">黄金岛</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202103517 +0800" channel="7" stop="20210202122427 +0800">
-    <title lang="zh">颛臾王</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202122427 +0800" channel="7" stop="20210202123132 +0800">
+  <programme start="20210217000312 +0800" channel="7" stop="20210217001612 +0800">
     <title lang="zh">音乐电影欣赏</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202123132 +0800" channel="7" stop="20210202142145 +0800">
-    <title lang="zh">钱在路上跑</title>
+  <programme start="20210217001612 +0800" channel="7" stop="20210217022631 +0800">
+    <title lang="zh">无双</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202142145 +0800" channel="7" stop="20210202161057 +0800">
-    <title lang="zh">魔法保姆麦克菲</title>
+  <programme start="20210217022631 +0800" channel="7" stop="20210217034910 +0800">
+    <title lang="zh">长江7号</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202161057 +0800" channel="7" stop="20210202175838 +0800">
-    <title lang="zh">长安侠影之药王诡案</title>
+  <programme start="20210217034910 +0800" channel="7" stop="20210217043626 +0800">
+    <title lang="zh">亲爱的陌生人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202175838 +0800" channel="7" stop="20210202182738 +0800">
-    <title lang="zh">中国电影报道2021-033</title>
+  <programme start="20210217043626 +0800" channel="7" stop="20210217063506 +0800">
+    <title lang="zh">二次初恋</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202182738 +0800" channel="7" stop="20210202201500 +0800">
-    <title lang="zh">凤凰天火</title>
+  <programme start="20210217063506 +0800" channel="7" stop="20210217084219 +0800">
+    <title lang="zh">逆时营救</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202201500 +0800" channel="7" stop="20210202215841 +0800">
-    <title lang="zh">暗语者</title>
+  <programme start="20210217084219 +0800" channel="7" stop="20210217110333 +0800">
+    <title lang="zh">绣春刀2修罗战场</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202215841 +0800" channel="7" stop="20210202220721 +0800">
-    <title lang="zh">今日影评2021-023</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202220721 +0800" channel="7" stop="20210202234939 +0800">
-    <title lang="zh">残缺</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202234939 +0800" channel="7" stop="20210202235739 +0800">
-    <title lang="zh">今日影评2021-023</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202235739 +0800" channel="7" stop="20210203001254 +0800">
+  <programme start="20210217110333 +0800" channel="7" stop="20210217111223 +0800">
     <title lang="zh">音乐电影欣赏</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203001254 +0800" channel="7" stop="20210203014134 +0800">
-    <title lang="zh">乙未之台岛遗恨</title>
+  <programme start="20210217111223 +0800" channel="7" stop="20210217133434 +0800">
+    <title lang="zh">捉妖记</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203014134 +0800" channel="7" stop="20210203030734 +0800">
-    <title lang="zh">晚安北京</title>
+  <programme start="20210217133434 +0800" channel="7" stop="20210217152837 +0800">
+    <title lang="zh">比得兔</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203030734 +0800" channel="7" stop="20210203071619 +0800">
-    <title lang="zh">巧克力</title>
+  <programme start="20210217152837 +0800" channel="7" stop="20210217173211 +0800">
+    <title lang="zh">逗爱熊仁镇</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203071619 +0800" channel="7" stop="20210203085612 +0800">
-    <title lang="zh">八仙传之吕仙惩贪记</title>
+  <programme start="20210217173211 +0800" channel="7" stop="20210217180826 +0800">
+    <title lang="zh">中国电影报道2021-048</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203085612 +0800" channel="7" stop="20210203105352 +0800">
-    <title lang="zh">闽赣风云</title>
+  <programme start="20210217180826 +0800" channel="7" stop="20210217201500 +0800">
+    <title lang="zh">深夜食堂</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203105352 +0800" channel="7" stop="20210203123626 +0800">
-    <title lang="zh">李白之天火燎原</title>
+  <programme start="20210217201500 +0800" channel="7" stop="20210217220849 +0800">
+    <title lang="zh">急先锋</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203123626 +0800" channel="7" stop="20210203124241 +0800">
+  <programme start="20210217220849 +0800" channel="7" stop="20210217221934 +0800">
+    <title lang="zh">今日影评2021-034</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217221934 +0800" channel="7" stop="20210217235003 +0800">
+    <title lang="zh">音乐之声（上）</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217235003 +0800" channel="7" stop="20210218000143 +0800">
     <title lang="zh">音乐电影欣赏</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203124241 +0800" channel="7" stop="20210203143001 +0800">
-    <title lang="zh">父子变形记</title>
+  <programme start="20210218000143 +0800" channel="7" stop="20210218013016 +0800">
+    <title lang="zh">音乐之声（下）</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203143001 +0800" channel="7" stop="20210203161056 +0800">
-    <title lang="zh">绿毛怪格林奇</title>
+  <programme start="20210218013016 +0800" channel="7" stop="20210218033203 +0800">
+    <title lang="zh">三城记</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203161056 +0800" channel="7" stop="20210203175145 +0800">
-    <title lang="zh">长安侠影之天朝死士</title>
+  <programme start="20210218033203 +0800" channel="7" stop="20210218050203 +0800">
+    <title lang="zh">我是奋青</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203175145 +0800" channel="7" stop="20210203182145 +0800">
-    <title lang="zh">中国电影报道2021-034</title>
+  <programme start="20210218050203 +0800" channel="7" stop="20210218062950 +0800">
+    <title lang="zh">大漠战将班超</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203182145 +0800" channel="7" stop="20210203201550 +0800">
-    <title lang="zh">火线青春</title>
+  <programme start="20210218062950 +0800" channel="7" stop="20210218081935 +0800">
+    <title lang="zh">Hi，高考君</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203201550 +0800" channel="7" stop="20210203215349 +0800">
-    <title lang="zh">狼牙关</title>
+  <programme start="20210218081935 +0800" channel="7" stop="20210218101622 +0800">
+    <title lang="zh">杨门少年</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203215349 +0800" channel="7" stop="20210203220449 +0800">
-    <title lang="zh">今日影评2021-024</title>
+  <programme start="20210218101622 +0800" channel="7" stop="20210218121152 +0800">
+    <title lang="zh">暗箭明枪</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203220449 +0800" channel="7" stop="20210203234936 +0800">
-    <title lang="zh">新神奇四侠</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203234936 +0800" channel="7" stop="20210203235736 +0800">
-    <title lang="zh">今日影评2021-024</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203235736 +0800" channel="7" stop="20210203235900 +0800">
+  <programme start="20210218121152 +0800" channel="7" stop="20210218121822 +0800">
     <title lang="zh">音乐电影欣赏</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218121822 +0800" channel="7" stop="20210218141209 +0800">
+    <title lang="zh">江南剿匪记之致命武器</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218141209 +0800" channel="7" stop="20210218160242 +0800">
+    <title lang="zh">少年与马</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218160242 +0800" channel="7" stop="20210218174958 +0800">
+    <title lang="zh">李雷和韩梅梅</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218174958 +0800" channel="7" stop="20210218182258 +0800">
+    <title lang="zh">中国电影报道2021-049</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218182258 +0800" channel="7" stop="20210218201500 +0800">
+    <title lang="zh">凿空者之使命召唤</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218201500 +0800" channel="7" stop="20210218221456 +0800">
+    <title lang="zh">我在时间尽头等你</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218221456 +0800" channel="7" stop="20210218222441 +0800">
+    <title lang="zh">今日影评2021-035</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218222441 +0800" channel="7" stop="20210218235900 +0800">
+    <title lang="zh">X战警：天启</title>
     <desc lang="zh">  </desc>
   </programme>
   <channel id="9">
     <display-name lang="zh">CCTV8</display-name>
   </channel>
-  <programme start="20210202004440 +0800" channel="9" stop="20210202013040 +0800">
-    <title lang="zh">你是我的眼第20集</title>
+  <programme start="20210217004325 +0800" channel="9" stop="20210217012925 +0800">
+    <title lang="zh">一念向北第3集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202013040 +0800" channel="9" stop="20210202021640 +0800">
-    <title lang="zh">你是我的眼第21集</title>
+  <programme start="20210217012925 +0800" channel="9" stop="20210217021525 +0800">
+    <title lang="zh">一念向北第4集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202021640 +0800" channel="9" stop="20210202030240 +0800">
-    <title lang="zh">你是我的眼第22集</title>
+  <programme start="20210217021525 +0800" channel="9" stop="20210217030125 +0800">
+    <title lang="zh">一念向北第5集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202030240 +0800" channel="9" stop="20210202034840 +0800">
-    <title lang="zh">你是我的眼第23集</title>
+  <programme start="20210217030125 +0800" channel="9" stop="20210217034725 +0800">
+    <title lang="zh">一念向北第6集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202034840 +0800" channel="9" stop="20210202042400 +0800">
-    <title lang="zh">你是我的眼第24集</title>
+  <programme start="20210217034725 +0800" channel="9" stop="20210217043325 +0800">
+    <title lang="zh">一念向北第7集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202042400 +0800" channel="9" stop="20210202043100 +0800">
-    <title lang="zh">星推荐-2021年2月-1</title>
+  <programme start="20210217043325 +0800" channel="9" stop="20210217045325 +0800">
+    <title lang="zh">插花-2015-12</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202043100 +0800" channel="9" stop="20210202051700 +0800">
-    <title lang="zh">三妹第36集</title>
+  <programme start="20210217045325 +0800" channel="9" stop="20210217045555 +0800">
+    <title lang="zh">插花-2015-12</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202051700 +0800" channel="9" stop="20210202060300 +0800">
-    <title lang="zh">三妹第37集</title>
+  <programme start="20210217045555 +0800" channel="9" stop="20210217050255 +0800">
+    <title lang="zh">星推荐-2021年2月-16</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202060300 +0800" channel="9" stop="20210202064935 +0800">
-    <title lang="zh">三妹第38集</title>
+  <programme start="20210217050255 +0800" channel="9" stop="20210217054855 +0800">
+    <title lang="zh">兰桐花开第40集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202064935 +0800" channel="9" stop="20210202073535 +0800">
-    <title lang="zh">三妹第39集</title>
+  <programme start="20210217054855 +0800" channel="9" stop="20210217063455 +0800">
+    <title lang="zh">兰桐花开第41集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202073535 +0800" channel="9" stop="20210202074330 +0800">
-    <title lang="zh">星推荐-2021年2月-1</title>
+  <programme start="20210217063455 +0800" channel="9" stop="20210217072130 +0800">
+    <title lang="zh">兰桐花开第42集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202074330 +0800" channel="9" stop="20210202083815 +0800">
-    <title lang="zh">绝代双骄第39集</title>
+  <programme start="20210217072130 +0800" channel="9" stop="20210217080730 +0800">
+    <title lang="zh">国家孩子第1集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202083815 +0800" channel="9" stop="20210202093515 +0800">
-    <title lang="zh">绝代双骄第40集</title>
+  <programme start="20210217080730 +0800" channel="9" stop="20210217081425 +0800">
+    <title lang="zh">星推荐-2021年2月-16</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202093515 +0800" channel="9" stop="20210202102845 +0800">
-    <title lang="zh">绝代双骄第41集</title>
+  <programme start="20210217081425 +0800" channel="9" stop="20210217090755 +0800">
+    <title lang="zh">于成龙第18集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202102845 +0800" channel="9" stop="20210202103330 +0800">
+  <programme start="20210217090755 +0800" channel="9" stop="20210217100455 +0800">
+    <title lang="zh">于成龙第19集</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217100455 +0800" channel="9" stop="20210217105825 +0800">
+    <title lang="zh">于成龙第20集</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217105825 +0800" channel="9" stop="20210217110310 +0800">
     <title lang="zh">插花-2015-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202103330 +0800" channel="9" stop="20210202113025 +0800">
-    <title lang="zh">绝代双骄第42集</title>
+  <programme start="20210217110310 +0800" channel="9" stop="20210217120000 +0800">
+    <title lang="zh">于成龙第21集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202113025 +0800" channel="9" stop="20210202121625 +0800">
-    <title lang="zh">绝代双骄第43集</title>
+  <programme start="20210217120000 +0800" channel="9" stop="20210217124830 +0800">
+    <title lang="zh">斗罗大陆第19集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202121625 +0800" channel="9" stop="20210202123225 +0800">
-    <title lang="zh">星推荐-2021年2月-1</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202123225 +0800" channel="9" stop="20210202132915 +0800">
-    <title lang="zh">紧急公关第18集</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202132915 +0800" channel="9" stop="20210202142200 +0800">
-    <title lang="zh">紧急公关第19集</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202142200 +0800" channel="9" stop="20210202142640 +0800">
+  <programme start="20210217124830 +0800" channel="9" stop="20210217125310 +0800">
     <title lang="zh">插花-2015-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202142640 +0800" channel="9" stop="20210202152335 +0800">
-    <title lang="zh">紧急公关第20集</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202152335 +0800" channel="9" stop="20210202160935 +0800">
-    <title lang="zh">紧急公关第21集</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202160935 +0800" channel="9" stop="20210202162435 +0800">
-    <title lang="zh">星推荐-2021年2月-1</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202162435 +0800" channel="9" stop="20210202162915 +0800">
+  <programme start="20210217125310 +0800" channel="9" stop="20210217125745 +0800">
     <title lang="zh">插花-2015-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202162915 +0800" channel="9" stop="20210202173145 +0800">
-    <title lang="zh">初婚第16集</title>
+  <programme start="20210217125745 +0800" channel="9" stop="20210217134345 +0800">
+    <title lang="zh">斗罗大陆第20集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202173145 +0800" channel="9" stop="20210202182615 +0800">
-    <title lang="zh">初婚第17集</title>
+  <programme start="20210217134345 +0800" channel="9" stop="20210217134825 +0800">
+    <title lang="zh">星推荐-2021年2月-13</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202182615 +0800" channel="9" stop="20210202183505 +0800">
-    <title lang="zh">星推荐-2021年2月-2</title>
+  <programme start="20210217134825 +0800" channel="9" stop="20210217135245 +0800">
+    <title lang="zh">插花-2017-21</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202183505 +0800" channel="9" stop="20210202192550 +0800">
-    <title lang="zh">初婚第18集</title>
+  <programme start="20210217135245 +0800" channel="9" stop="20210217135725 +0800">
+    <title lang="zh">星推荐-2021年2月-14</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202192550 +0800" channel="9" stop="20210202192700 +0800">
+  <programme start="20210217135725 +0800" channel="9" stop="20210217140445 +0800">
+    <title lang="zh">插花-2017-16</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217140445 +0800" channel="9" stop="20210217141410 +0800">
+    <title lang="zh">星推荐-2021年2月-16</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217141410 +0800" channel="9" stop="20210217151240 +0800">
+    <title lang="zh">最初的相遇，最后的别离第22集</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217151240 +0800" channel="9" stop="20210217160910 +0800">
+    <title lang="zh">最初的相遇，最后的别离第23集</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217160910 +0800" channel="9" stop="20210217161935 +0800">
+    <title lang="zh">星推荐-2021年2月-16</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217161935 +0800" channel="9" stop="20210217162805 +0800">
+    <title lang="zh">插花-2017-21</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217162805 +0800" channel="9" stop="20210217163200 +0800">
     <title lang="zh">插花-2015-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202192700 +0800" channel="9" stop="20210202193000 +0800">
-    <title lang="zh">本集提要- 《紧急公关》第35集</title>
+  <programme start="20210217163200 +0800" channel="9" stop="20210217173410 +0800">
+    <title lang="zh">乡村篮球队第25集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202193000 +0800" channel="9" stop="20210202202535 +0800">
-    <title lang="zh">紧急公关第35集</title>
+  <programme start="20210217173410 +0800" channel="9" stop="20210217182755 +0800">
+    <title lang="zh">乡村篮球队第26集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202202535 +0800" channel="9" stop="20210202203000 +0800">
-    <title lang="zh">本集提要- 《紧急公关》第36集</title>
+  <programme start="20210217182755 +0800" channel="9" stop="20210217183545 +0800">
+    <title lang="zh">星推荐-2021年2月-17</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202203000 +0800" channel="9" stop="20210202212600 +0800">
-    <title lang="zh">紧急公关第36集</title>
+  <programme start="20210217183545 +0800" channel="9" stop="20210217192615 +0800">
+    <title lang="zh">乡村篮球队第27集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202212600 +0800" channel="9" stop="20210202213010 +0800">
+  <programme start="20210217192615 +0800" channel="9" stop="20210217192725 +0800">
     <title lang="zh">插花-2015-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202213010 +0800" channel="9" stop="20210202221910 +0800">
-    <title lang="zh">山海情第13集</title>
+  <programme start="20210217192725 +0800" channel="9" stop="20210217193000 +0800">
+    <title lang="zh">本集提要- 《跨过鸭绿江》第37集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202221910 +0800" channel="9" stop="20210202230655 +0800">
-    <title lang="zh">山海情第14集</title>
+  <programme start="20210217193000 +0800" channel="9" stop="20210217202450 +0800">
+    <title lang="zh">跨过鸭绿江第37集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202230655 +0800" channel="9" stop="20210202235255 +0800">
-    <title lang="zh">山海情15/23</title>
+  <programme start="20210217202450 +0800" channel="9" stop="20210217202900 +0800">
+    <title lang="zh">本集提要- 《跨过鸭绿江》第38集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202235255 +0800" channel="9" stop="20210202235940 +0800">
-    <title lang="zh">星推荐-2021年2月-2</title>
+  <programme start="20210217202900 +0800" channel="9" stop="20210217212415 +0800">
+    <title lang="zh">跨过鸭绿江第38集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202235940 +0800" channel="9" stop="20210203004540 +0800">
-    <title lang="zh">你是我的眼第25集</title>
+  <programme start="20210217212415 +0800" channel="9" stop="20210217212825 +0800">
+    <title lang="zh">本集提要- 《跨过鸭绿江》第39集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203004540 +0800" channel="9" stop="20210203013140 +0800">
-    <title lang="zh">你是我的眼第26集</title>
+  <programme start="20210217212825 +0800" channel="9" stop="20210217221825 +0800">
+    <title lang="zh">跨过鸭绿江第39集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203013140 +0800" channel="9" stop="20210203021740 +0800">
-    <title lang="zh">你是我的眼第27集</title>
+  <programme start="20210217221825 +0800" channel="9" stop="20210217230610 +0800">
+    <title lang="zh">姥姥的饺子馆第20集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203021740 +0800" channel="9" stop="20210203030340 +0800">
-    <title lang="zh">你是我的眼第28集</title>
+  <programme start="20210217230610 +0800" channel="9" stop="20210217235210 +0800">
+    <title lang="zh">姥姥的饺子馆第21集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203030340 +0800" channel="9" stop="20210203034940 +0800">
-    <title lang="zh">你是我的眼第29集</title>
+  <programme start="20210217235210 +0800" channel="9" stop="20210217235825 +0800">
+    <title lang="zh">星推荐-2021年2月-17</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203034940 +0800" channel="9" stop="20210203042400 +0800">
-    <title lang="zh">你是我的眼第30集</title>
+  <programme start="20210217235825 +0800" channel="9" stop="20210218004325 +0800">
+    <title lang="zh">剧说很好看-2021-6</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203042400 +0800" channel="9" stop="20210203043100 +0800">
-    <title lang="zh">星推荐-2021年2月-2</title>
+  <programme start="20210218004325 +0800" channel="9" stop="20210218012925 +0800">
+    <title lang="zh">一念向北第8集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203043100 +0800" channel="9" stop="20210203051700 +0800">
-    <title lang="zh">三妹40/56</title>
+  <programme start="20210218012925 +0800" channel="9" stop="20210218021525 +0800">
+    <title lang="zh">一念向北第9集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203051700 +0800" channel="9" stop="20210203060300 +0800">
-    <title lang="zh">三妹41/56</title>
+  <programme start="20210218021525 +0800" channel="9" stop="20210218030125 +0800">
+    <title lang="zh">一念向北第10集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203060300 +0800" channel="9" stop="20210203064935 +0800">
-    <title lang="zh">三妹42/56</title>
+  <programme start="20210218030125 +0800" channel="9" stop="20210218034725 +0800">
+    <title lang="zh">一念向北第11集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203064935 +0800" channel="9" stop="20210203073535 +0800">
-    <title lang="zh">三妹43/56</title>
+  <programme start="20210218034725 +0800" channel="9" stop="20210218043325 +0800">
+    <title lang="zh">一念向北第12集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203073535 +0800" channel="9" stop="20210203074330 +0800">
-    <title lang="zh">星推荐-2021年2月-2</title>
+  <programme start="20210218043325 +0800" channel="9" stop="20210218045325 +0800">
+    <title lang="zh">插花-2015-12</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203074330 +0800" channel="9" stop="20210203083815 +0800">
-    <title lang="zh">绝代双骄44/44</title>
+  <programme start="20210218045325 +0800" channel="9" stop="20210218045555 +0800">
+    <title lang="zh">插花-2015-12</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203083815 +0800" channel="9" stop="20210203093515 +0800">
-    <title lang="zh">少年游之一寸相思1/40</title>
+  <programme start="20210218045555 +0800" channel="9" stop="20210218050255 +0800">
+    <title lang="zh">星推荐-2021年2月-17</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203093515 +0800" channel="9" stop="20210203102845 +0800">
-    <title lang="zh">少年游之一寸相思2/40</title>
+  <programme start="20210218050255 +0800" channel="9" stop="20210218054855 +0800">
+    <title lang="zh">国家孩子2/40</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203102845 +0800" channel="9" stop="20210203103330 +0800">
+  <programme start="20210218054855 +0800" channel="9" stop="20210218063455 +0800">
+    <title lang="zh">国家孩子3/40</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218063455 +0800" channel="9" stop="20210218072130 +0800">
+    <title lang="zh">国家孩子4/40</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218072130 +0800" channel="9" stop="20210218080730 +0800">
+    <title lang="zh">国家孩子5/40</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218080730 +0800" channel="9" stop="20210218081425 +0800">
+    <title lang="zh">星推荐-2021年2月-17</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218081425 +0800" channel="9" stop="20210218090755 +0800">
+    <title lang="zh">于成龙22/40</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218090755 +0800" channel="9" stop="20210218100455 +0800">
+    <title lang="zh">于成龙23/40</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218100455 +0800" channel="9" stop="20210218105825 +0800">
+    <title lang="zh">于成龙24/40</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218105825 +0800" channel="9" stop="20210218110310 +0800">
     <title lang="zh">插花-2015-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203103330 +0800" channel="9" stop="20210203113025 +0800">
-    <title lang="zh">少年游之一寸相思3/40</title>
+  <programme start="20210218110310 +0800" channel="9" stop="20210218120000 +0800">
+    <title lang="zh">于成龙25/40</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203113025 +0800" channel="9" stop="20210203121625 +0800">
-    <title lang="zh">少年游之一寸相思4/40</title>
+  <programme start="20210218120000 +0800" channel="9" stop="20210218124830 +0800">
+    <title lang="zh">斗罗大陆21/33</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203121625 +0800" channel="9" stop="20210203123225 +0800">
-    <title lang="zh">星推荐-2021年2月-2</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203123225 +0800" channel="9" stop="20210203132915 +0800">
-    <title lang="zh">紧急公关22/38</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203132915 +0800" channel="9" stop="20210203142200 +0800">
-    <title lang="zh">紧急公关23/38</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203142200 +0800" channel="9" stop="20210203142640 +0800">
+  <programme start="20210218124830 +0800" channel="9" stop="20210218125310 +0800">
     <title lang="zh">插花-2015-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203142640 +0800" channel="9" stop="20210203152335 +0800">
-    <title lang="zh">紧急公关24/38</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203152335 +0800" channel="9" stop="20210203160935 +0800">
-    <title lang="zh">紧急公关25/38</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203160935 +0800" channel="9" stop="20210203162435 +0800">
-    <title lang="zh">星推荐-2021年2月-2</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203162435 +0800" channel="9" stop="20210203162915 +0800">
+  <programme start="20210218125310 +0800" channel="9" stop="20210218125745 +0800">
     <title lang="zh">插花-2015-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203162915 +0800" channel="9" stop="20210203173145 +0800">
-    <title lang="zh">初婚19/35</title>
+  <programme start="20210218125745 +0800" channel="9" stop="20210218134345 +0800">
+    <title lang="zh">斗罗大陆22/33</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203173145 +0800" channel="9" stop="20210203182615 +0800">
-    <title lang="zh">初婚20/35</title>
+  <programme start="20210218134345 +0800" channel="9" stop="20210218134825 +0800">
+    <title lang="zh">星推荐-2021年2月-14</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203182615 +0800" channel="9" stop="20210203183505 +0800">
-    <title lang="zh">星推荐-2021年2月-3</title>
+  <programme start="20210218134825 +0800" channel="9" stop="20210218135245 +0800">
+    <title lang="zh">插花-2017-21</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203183505 +0800" channel="9" stop="20210203192550 +0800">
-    <title lang="zh">初婚21/35</title>
+  <programme start="20210218135245 +0800" channel="9" stop="20210218135725 +0800">
+    <title lang="zh">星推荐-2021年2月-15</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203192550 +0800" channel="9" stop="20210203192700 +0800">
+  <programme start="20210218135725 +0800" channel="9" stop="20210218140445 +0800">
+    <title lang="zh">插花-2017-16</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218140445 +0800" channel="9" stop="20210218141410 +0800">
+    <title lang="zh">星推荐-2021年2月-17</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218141410 +0800" channel="9" stop="20210218151240 +0800">
+    <title lang="zh">最初的相遇，最后的别离24/39</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218151240 +0800" channel="9" stop="20210218160910 +0800">
+    <title lang="zh">最初的相遇，最后的别离25/39</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218160910 +0800" channel="9" stop="20210218161935 +0800">
+    <title lang="zh">星推荐-2021年2月-17</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218161935 +0800" channel="9" stop="20210218162805 +0800">
+    <title lang="zh">插花-2017-21</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218162805 +0800" channel="9" stop="20210218163200 +0800">
     <title lang="zh">插花-2015-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203192700 +0800" channel="9" stop="20210203193000 +0800">
-    <title lang="zh">本集提要-《紧急公关》37/38</title>
+  <programme start="20210218163200 +0800" channel="9" stop="20210218173410 +0800">
+    <title lang="zh">乡村篮球队28/35</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203193000 +0800" channel="9" stop="20210203202535 +0800">
-    <title lang="zh">紧急公关37/38</title>
+  <programme start="20210218173410 +0800" channel="9" stop="20210218182755 +0800">
+    <title lang="zh">乡村篮球队29/35</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203202535 +0800" channel="9" stop="20210203203000 +0800">
-    <title lang="zh">本集提要-《紧急公关》38/38</title>
+  <programme start="20210218182755 +0800" channel="9" stop="20210218183545 +0800">
+    <title lang="zh">星推荐-2021年2月-18</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203203000 +0800" channel="9" stop="20210203212600 +0800">
-    <title lang="zh">紧急公关38/38</title>
+  <programme start="20210218183545 +0800" channel="9" stop="20210218192615 +0800">
+    <title lang="zh">乡村篮球队30/35</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203212600 +0800" channel="9" stop="20210203213010 +0800">
+  <programme start="20210218192615 +0800" channel="9" stop="20210218192725 +0800">
     <title lang="zh">插花-2015-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203213010 +0800" channel="9" stop="20210203221910 +0800">
-    <title lang="zh">山海情16/23</title>
+  <programme start="20210218192725 +0800" channel="9" stop="20210218193000 +0800">
+    <title lang="zh">本集提要-《跨过鸭绿江》40/40</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203221910 +0800" channel="9" stop="20210203230655 +0800">
-    <title lang="zh">山海情17/23</title>
+  <programme start="20210218193000 +0800" channel="9" stop="20210218202450 +0800">
+    <title lang="zh">跨过鸭绿江40/40</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203230655 +0800" channel="9" stop="20210203235255 +0800">
-    <title lang="zh">山海情18/23</title>
+  <programme start="20210218202450 +0800" channel="9" stop="20210218202900 +0800">
+    <title lang="zh">本集提要-《甜蜜》1/38</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203235255 +0800" channel="9" stop="20210203235940 +0800">
-    <title lang="zh">星推荐-2021年2月-3</title>
+  <programme start="20210218202900 +0800" channel="9" stop="20210218212415 +0800">
+    <title lang="zh">甜蜜1/38</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203235940 +0800" channel="9" stop="20210203235900 +0800">
-    <title lang="zh">你是我的眼31/32</title>
+  <programme start="20210218212415 +0800" channel="9" stop="20210218212825 +0800">
+    <title lang="zh">本集提要-《甜蜜》2/38</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218212825 +0800" channel="9" stop="20210218221825 +0800">
+    <title lang="zh">甜蜜2/38</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218221825 +0800" channel="9" stop="20210218230610 +0800">
+    <title lang="zh">姥姥的饺子馆22/40</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218230610 +0800" channel="9" stop="20210218235210 +0800">
+    <title lang="zh">姥姥的饺子馆23/40</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218235210 +0800" channel="9" stop="20210218235825 +0800">
+    <title lang="zh">星推荐-2021年2月-18</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218235825 +0800" channel="9" stop="20210218235900 +0800">
+    <title lang="zh">一念向北13/36</title>
     <desc lang="zh">  </desc>
   </programme>
   <channel id="6567">
     <display-name lang="zh">CCTV-电影</display-name>
   </channel>
-  <programme start="20210202000000 +0800" channel="6567" stop="20210202020000 +0800">
+  <programme start="20210217000000 +0800" channel="6567" stop="20210217020000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202020000 +0800" channel="6567" stop="20210202040000 +0800">
+  <programme start="20210217020000 +0800" channel="6567" stop="20210217040000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202040000 +0800" channel="6567" stop="20210202060000 +0800">
+  <programme start="20210217040000 +0800" channel="6567" stop="20210217060000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202060000 +0800" channel="6567" stop="20210202080000 +0800">
+  <programme start="20210217060000 +0800" channel="6567" stop="20210217080000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202080000 +0800" channel="6567" stop="20210202100000 +0800">
+  <programme start="20210217080000 +0800" channel="6567" stop="20210217100000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202100000 +0800" channel="6567" stop="20210202120000 +0800">
+  <programme start="20210217100000 +0800" channel="6567" stop="20210217120000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202120000 +0800" channel="6567" stop="20210202140000 +0800">
+  <programme start="20210217120000 +0800" channel="6567" stop="20210217140000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202140000 +0800" channel="6567" stop="20210202160000 +0800">
+  <programme start="20210217140000 +0800" channel="6567" stop="20210217160000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202160000 +0800" channel="6567" stop="20210202180000 +0800">
+  <programme start="20210217160000 +0800" channel="6567" stop="20210217180000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202180000 +0800" channel="6567" stop="20210202200000 +0800">
+  <programme start="20210217180000 +0800" channel="6567" stop="20210217200000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202200000 +0800" channel="6567" stop="20210202220000 +0800">
+  <programme start="20210217200000 +0800" channel="6567" stop="20210217220000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202220000 +0800" channel="6567" stop="20210203000000 +0800">
+  <programme start="20210217220000 +0800" channel="6567" stop="20210218000000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203000000 +0800" channel="6567" stop="20210203020000 +0800">
+  <programme start="20210218000000 +0800" channel="6567" stop="20210218020000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203020000 +0800" channel="6567" stop="20210203040000 +0800">
+  <programme start="20210218020000 +0800" channel="6567" stop="20210218040000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203040000 +0800" channel="6567" stop="20210203060000 +0800">
+  <programme start="20210218040000 +0800" channel="6567" stop="20210218060000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203060000 +0800" channel="6567" stop="20210203080000 +0800">
+  <programme start="20210218060000 +0800" channel="6567" stop="20210218080000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203080000 +0800" channel="6567" stop="20210203100000 +0800">
+  <programme start="20210218080000 +0800" channel="6567" stop="20210218100000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203100000 +0800" channel="6567" stop="20210203120000 +0800">
+  <programme start="20210218100000 +0800" channel="6567" stop="20210218120000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203120000 +0800" channel="6567" stop="20210203140000 +0800">
+  <programme start="20210218120000 +0800" channel="6567" stop="20210218140000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203140000 +0800" channel="6567" stop="20210203160000 +0800">
+  <programme start="20210218140000 +0800" channel="6567" stop="20210218160000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203160000 +0800" channel="6567" stop="20210203180000 +0800">
+  <programme start="20210218160000 +0800" channel="6567" stop="20210218180000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203180000 +0800" channel="6567" stop="20210203200000 +0800">
+  <programme start="20210218180000 +0800" channel="6567" stop="20210218200000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203200000 +0800" channel="6567" stop="20210203220000 +0800">
+  <programme start="20210218200000 +0800" channel="6567" stop="20210218220000 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203220000 +0800" channel="6567" stop="20210203235900 +0800">
+  <programme start="20210218220000 +0800" channel="6567" stop="20210218235900 +0800">
     <title lang="zh">国产影院</title>
     <desc lang="zh">  </desc>
   </programme>
   <channel id="102">
     <display-name lang="zh">IPTV热播剧场</display-name>
   </channel>
-  <programme start="20210202054200 +0800" channel="102" stop="20210202061700 +0800">
-    <title lang="zh">标清 《非处方青春》 第17集 假�...</title>
+  <programme start="20210217052400 +0800" channel="102" stop="20210217060600 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第20集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202061700 +0800" channel="102" stop="20210202070100 +0800">
-    <title lang="zh">标清 《南国有佳人》 第27集</title>
+  <programme start="20210217060600 +0800" channel="102" stop="20210217064900 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第21集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202070100 +0800" channel="102" stop="20210202074400 +0800">
-    <title lang="zh">标清 《南国有佳人》 第28集</title>
+  <programme start="20210217064900 +0800" channel="102" stop="20210217072000 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第10集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202074400 +0800" channel="102" stop="20210202082800 +0800">
-    <title lang="zh">标清 《南国有佳人》 第29集</title>
+  <programme start="20210217072000 +0800" channel="102" stop="20210217075300 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第11集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202082800 +0800" channel="102" stop="20210202091100 +0800">
-    <title lang="zh">标清 《南国有佳人》 第30集</title>
+  <programme start="20210217075300 +0800" channel="102" stop="20210217082500 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第12集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202091100 +0800" channel="102" stop="20210202095200 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第19集</title>
+  <programme start="20210217082500 +0800" channel="102" stop="20210217085700 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第13集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202095200 +0800" channel="102" stop="20210202103300 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第20集</title>
+  <programme start="20210217085700 +0800" channel="102" stop="20210217093900 +0800">
+    <title lang="zh">标清 《如果我爱你》 第25集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202103300 +0800" channel="102" stop="20210202111400 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第21集</title>
+  <programme start="20210217093900 +0800" channel="102" stop="20210217102200 +0800">
+    <title lang="zh">标清 《如果我爱你》 第26集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202111400 +0800" channel="102" stop="20210202115600 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第22集</title>
+  <programme start="20210217102200 +0800" channel="102" stop="20210217110500 +0800">
+    <title lang="zh">标清 《如果我爱你》 第27集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202115600 +0800" channel="102" stop="20210202123800 +0800">
-    <title lang="zh">标清 《恋人》 第8集</title>
+  <programme start="20210217110500 +0800" channel="102" stop="20210217114700 +0800">
+    <title lang="zh">标清 《如果我爱你》 第28集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202123800 +0800" channel="102" stop="20210202132000 +0800">
-    <title lang="zh">标清 《恋人》 第9集</title>
+  <programme start="20210217114700 +0800" channel="102" stop="20210217122800 +0800">
+    <title lang="zh">标清 《再婚进行时》 第17集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202132000 +0800" channel="102" stop="20210202140200 +0800">
-    <title lang="zh">标清 《恋人》 第10集</title>
+  <programme start="20210217122800 +0800" channel="102" stop="20210217130900 +0800">
+    <title lang="zh">标清 《再婚进行时》 第18集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202140200 +0800" channel="102" stop="20210202144300 +0800">
-    <title lang="zh">标清 《恋人》 第11集</title>
+  <programme start="20210217130900 +0800" channel="102" stop="20210217135000 +0800">
+    <title lang="zh">标清 《再婚进行时》 第19集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202144300 +0800" channel="102" stop="20210202151700 +0800">
-    <title lang="zh">标清 《非处方青春》 第14集 B515�...</title>
+  <programme start="20210217135000 +0800" channel="102" stop="20210217143100 +0800">
+    <title lang="zh">标清 《再婚进行时》 第20集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202151700 +0800" channel="102" stop="20210202155100 +0800">
-    <title lang="zh">标清 《非处方青春》 第15集 B515�...</title>
+  <programme start="20210217143100 +0800" channel="102" stop="20210217151300 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第18集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202155100 +0800" channel="102" stop="20210202162500 +0800">
-    <title lang="zh">标清 《非处方青春》 第16集 天�...</title>
+  <programme start="20210217151300 +0800" channel="102" stop="20210217155500 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第19集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202162500 +0800" channel="102" stop="20210202170000 +0800">
-    <title lang="zh">标清 《非处方青春》 第17集 假�...</title>
+  <programme start="20210217155500 +0800" channel="102" stop="20210217163800 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第20集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202170000 +0800" channel="102" stop="20210202174400 +0800">
-    <title lang="zh">标清 《南国有佳人》 第27集</title>
+  <programme start="20210217163800 +0800" channel="102" stop="20210217172000 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第21集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202174400 +0800" channel="102" stop="20210202182700 +0800">
-    <title lang="zh">标清 《南国有佳人》 第28集</title>
+  <programme start="20210217172000 +0800" channel="102" stop="20210217175200 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第10集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202182700 +0800" channel="102" stop="20210202191100 +0800">
-    <title lang="zh">标清 《南国有佳人》 第29集</title>
+  <programme start="20210217175200 +0800" channel="102" stop="20210217182400 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第11集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202191100 +0800" channel="102" stop="20210202195400 +0800">
-    <title lang="zh">标清 《南国有佳人》 第30集</title>
+  <programme start="20210217182400 +0800" channel="102" stop="20210217185700 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第12集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202195400 +0800" channel="102" stop="20210202203600 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第19集</title>
+  <programme start="20210217185700 +0800" channel="102" stop="20210217192900 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第13集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202203600 +0800" channel="102" stop="20210202211700 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第20集</title>
+  <programme start="20210217192900 +0800" channel="102" stop="20210217201100 +0800">
+    <title lang="zh">标清 《如果我爱你》 第25集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202211700 +0800" channel="102" stop="20210202215800 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第21集</title>
+  <programme start="20210217201100 +0800" channel="102" stop="20210217205400 +0800">
+    <title lang="zh">标清 《如果我爱你》 第26集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202215800 +0800" channel="102" stop="20210202223900 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第22集</title>
+  <programme start="20210217205400 +0800" channel="102" stop="20210217213700 +0800">
+    <title lang="zh">标清 《如果我爱你》 第27集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202223900 +0800" channel="102" stop="20210202232100 +0800">
-    <title lang="zh">标清 《恋人》 第8集</title>
+  <programme start="20210217213700 +0800" channel="102" stop="20210217221900 +0800">
+    <title lang="zh">标清 《如果我爱你》 第28集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202232100 +0800" channel="102" stop="20210203000300 +0800">
-    <title lang="zh">标清 《恋人》 第9集</title>
+  <programme start="20210217221900 +0800" channel="102" stop="20210217230000 +0800">
+    <title lang="zh">标清 《再婚进行时》 第17集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203000300 +0800" channel="102" stop="20210203004500 +0800">
-    <title lang="zh">标清 《恋人》 第10集</title>
+  <programme start="20210217230000 +0800" channel="102" stop="20210217234100 +0800">
+    <title lang="zh">标清 《再婚进行时》 第18集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203004500 +0800" channel="102" stop="20210203012600 +0800">
-    <title lang="zh">标清 《恋人》 第11集</title>
+  <programme start="20210217234100 +0800" channel="102" stop="20210218002200 +0800">
+    <title lang="zh">标清 《再婚进行时》 第19集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203012600 +0800" channel="102" stop="20210203020000 +0800">
-    <title lang="zh">标清 《非处方青春》 第14集 B515�...</title>
+  <programme start="20210218002200 +0800" channel="102" stop="20210218010300 +0800">
+    <title lang="zh">标清 《再婚进行时》 第20集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203020000 +0800" channel="102" stop="20210203023400 +0800">
-    <title lang="zh">标清 《非处方青春》 第15集 B515�...</title>
+  <programme start="20210218010300 +0800" channel="102" stop="20210218014500 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第18集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203023400 +0800" channel="102" stop="20210203030900 +0800">
-    <title lang="zh">标清 《非处方青春》 第16集 天�...</title>
+  <programme start="20210218014500 +0800" channel="102" stop="20210218022700 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第19集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203030900 +0800" channel="102" stop="20210203034300 +0800">
-    <title lang="zh">标清 《非处方青春》 第17集 假�...</title>
+  <programme start="20210218022700 +0800" channel="102" stop="20210218031000 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第20集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203034300 +0800" channel="102" stop="20210203040000 +0800">
+  <programme start="20210218031000 +0800" channel="102" stop="20210218035200 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第21集</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218035200 +0800" channel="102" stop="20210218040000 +0800">
     <title lang="zh">标清 歌唱祖国·一首歌一座城</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203040000 +0800" channel="102" stop="20210203043100 +0800">
-    <title lang="zh">标清 《非处方青春》 第18集 蝴�...</title>
+  <programme start="20210218040000 +0800" channel="102" stop="20210218044200 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第22集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203043100 +0800" channel="102" stop="20210203050500 +0800">
-    <title lang="zh">标清 《非处方青春》 第19集 触�...</title>
+  <programme start="20210218044200 +0800" channel="102" stop="20210218052500 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第23集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203050500 +0800" channel="102" stop="20210203054000 +0800">
-    <title lang="zh">标清 《非处方青春》 第20集 高�...</title>
+  <programme start="20210218052500 +0800" channel="102" stop="20210218060400 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第24集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203054000 +0800" channel="102" stop="20210203061500 +0800">
-    <title lang="zh">标清 《非处方青春》 第21集 别�...</title>
+  <programme start="20210218060400 +0800" channel="102" stop="20210218064700 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第25集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203061500 +0800" channel="102" stop="20210203065800 +0800">
-    <title lang="zh">标清 《南国有佳人》 第31集</title>
+  <programme start="20210218064700 +0800" channel="102" stop="20210218071900 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第14集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203065800 +0800" channel="102" stop="20210203074400 +0800">
-    <title lang="zh">标清 《南国有佳人》 第32集</title>
+  <programme start="20210218071900 +0800" channel="102" stop="20210218075000 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第15集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203074400 +0800" channel="102" stop="20210203082900 +0800">
-    <title lang="zh">标清 《南国有佳人》 第33集</title>
+  <programme start="20210218075000 +0800" channel="102" stop="20210218082200 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第16集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203082900 +0800" channel="102" stop="20210203091200 +0800">
-    <title lang="zh">标清 《南国有佳人》 第34集</title>
+  <programme start="20210218082200 +0800" channel="102" stop="20210218085400 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第17集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203091200 +0800" channel="102" stop="20210203095400 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第23集</title>
+  <programme start="20210218085400 +0800" channel="102" stop="20210218093700 +0800">
+    <title lang="zh">标清 《如果我爱你》 第29集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203095400 +0800" channel="102" stop="20210203103600 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第24集</title>
+  <programme start="20210218093700 +0800" channel="102" stop="20210218101900 +0800">
+    <title lang="zh">标清 《如果我爱你》 第30集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203103600 +0800" channel="102" stop="20210203111700 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第25集</title>
+  <programme start="20210218101900 +0800" channel="102" stop="20210218110100 +0800">
+    <title lang="zh">标清 《如果我爱你》 第31集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203111700 +0800" channel="102" stop="20210203115800 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第26集</title>
+  <programme start="20210218110100 +0800" channel="102" stop="20210218114400 +0800">
+    <title lang="zh">标清 《如果我爱你》 第32集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203115800 +0800" channel="102" stop="20210203123900 +0800">
-    <title lang="zh">标清 《恋人》 第12集</title>
+  <programme start="20210218114400 +0800" channel="102" stop="20210218122500 +0800">
+    <title lang="zh">标清 《再婚进行时》 第21集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203123900 +0800" channel="102" stop="20210203132100 +0800">
-    <title lang="zh">标清 《恋人》 第13集</title>
+  <programme start="20210218122500 +0800" channel="102" stop="20210218130600 +0800">
+    <title lang="zh">标清 《再婚进行时》 第22集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203132100 +0800" channel="102" stop="20210203140300 +0800">
-    <title lang="zh">标清 《恋人》 第14集</title>
+  <programme start="20210218130600 +0800" channel="102" stop="20210218134700 +0800">
+    <title lang="zh">标清 《再婚进行时》 第23集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203140300 +0800" channel="102" stop="20210203144500 +0800">
-    <title lang="zh">标清 《恋人》 第15集</title>
+  <programme start="20210218134700 +0800" channel="102" stop="20210218142800 +0800">
+    <title lang="zh">标清 《再婚进行时》 第24集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203144500 +0800" channel="102" stop="20210203151700 +0800">
-    <title lang="zh">标清 《非处方青春》 第18集 蝴�...</title>
+  <programme start="20210218142800 +0800" channel="102" stop="20210218151000 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第22集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203151700 +0800" channel="102" stop="20210203155100 +0800">
-    <title lang="zh">标清 《非处方青春》 第19集 触�...</title>
+  <programme start="20210218151000 +0800" channel="102" stop="20210218155300 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第23集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203155100 +0800" channel="102" stop="20210203162600 +0800">
-    <title lang="zh">标清 《非处方青春》 第20集 高�...</title>
+  <programme start="20210218155300 +0800" channel="102" stop="20210218163200 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第24集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203162600 +0800" channel="102" stop="20210203170000 +0800">
-    <title lang="zh">标清 《非处方青春》 第21集 别�...</title>
+  <programme start="20210218163200 +0800" channel="102" stop="20210218171500 +0800">
+    <title lang="zh">标清 《幸福三颗星》 第25集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203170000 +0800" channel="102" stop="20210203174400 +0800">
-    <title lang="zh">标清 《南国有佳人》 第31集</title>
+  <programme start="20210218171500 +0800" channel="102" stop="20210218174700 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第14集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203174400 +0800" channel="102" stop="20210203182900 +0800">
-    <title lang="zh">标清 《南国有佳人》 第32集</title>
+  <programme start="20210218174700 +0800" channel="102" stop="20210218181900 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第15集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203182900 +0800" channel="102" stop="20210203191400 +0800">
-    <title lang="zh">标清 《南国有佳人》 第33集</title>
+  <programme start="20210218181900 +0800" channel="102" stop="20210218185000 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第16集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203191400 +0800" channel="102" stop="20210203195800 +0800">
-    <title lang="zh">标清 《南国有佳人》 第34集</title>
+  <programme start="20210218185000 +0800" channel="102" stop="20210218192200 +0800">
+    <title lang="zh">标清 《我知道你的秘密》 第17集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203195800 +0800" channel="102" stop="20210203203900 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第23集</title>
+  <programme start="20210218192200 +0800" channel="102" stop="20210218200500 +0800">
+    <title lang="zh">标清 《如果我爱你》 第29集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203203900 +0800" channel="102" stop="20210203212100 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第24集</title>
+  <programme start="20210218200500 +0800" channel="102" stop="20210218204800 +0800">
+    <title lang="zh">标清 《如果我爱你》 第30集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203212100 +0800" channel="102" stop="20210203220200 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第25集</title>
+  <programme start="20210218204800 +0800" channel="102" stop="20210218213000 +0800">
+    <title lang="zh">标清 《如果我爱你》 第31集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203220200 +0800" channel="102" stop="20210203224400 +0800">
-    <title lang="zh">标清 《爱人的谎言》 第26集</title>
+  <programme start="20210218213000 +0800" channel="102" stop="20210218221200 +0800">
+    <title lang="zh">标清 《如果我爱你》 第32集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203224400 +0800" channel="102" stop="20210203232500 +0800">
-    <title lang="zh">标清 《恋人》 第12集</title>
+  <programme start="20210218221200 +0800" channel="102" stop="20210218225300 +0800">
+    <title lang="zh">标清 《再婚进行时》 第21集</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203232500 +0800" channel="102" stop="20210203000600 +0800">
-    <title lang="zh">标清 《恋人》 第13集</title>
+  <programme start="20210218225300 +0800" channel="102" stop="20210218233400 +0800">
+    <title lang="zh">标清 《再婚进行时》 第22集</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218233400 +0800" channel="102" stop="20210218001500 +0800">
+    <title lang="zh">标清 《再婚进行时》 第23集</title>
     <desc lang="zh">  </desc>
   </programme>
   <channel id="101">
     <display-name lang="zh">IPTV经典电影</display-name>
   </channel>
-  <programme start="20210202052100 +0800" channel="101" stop="20210202064500 +0800">
-    <title lang="zh">标清 生命中最美好的一天</title>
+  <programme start="20210217052700 +0800" channel="101" stop="20210217065400 +0800">
+    <title lang="zh">标清 乐动我心</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202064500 +0800" channel="101" stop="20210202080600 +0800">
-    <title lang="zh">标清 最后探戈</title>
+  <programme start="20210217065400 +0800" channel="101" stop="20210217082200 +0800">
+    <title lang="zh">标清 瘦长怪人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202080600 +0800" channel="101" stop="20210202094600 +0800">
-    <title lang="zh">标清 小森林</title>
+  <programme start="20210217082200 +0800" channel="101" stop="20210217094800 +0800">
+    <title lang="zh">标清 乐动我心</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202094600 +0800" channel="101" stop="20210202105600 +0800">
-    <title lang="zh">标清 俘获女孩心</title>
+  <programme start="20210217094800 +0800" channel="101" stop="20210217111600 +0800">
+    <title lang="zh">标清 瘦长怪人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202105600 +0800" channel="101" stop="20210202121700 +0800">
-    <title lang="zh">标清 托斯塔纳天堂</title>
+  <programme start="20210217111600 +0800" channel="101" stop="20210217124200 +0800">
+    <title lang="zh">标清 乐动我心</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202121700 +0800" channel="101" stop="20210202134100 +0800">
-    <title lang="zh">标清 生命中最美好的一天</title>
+  <programme start="20210217124200 +0800" channel="101" stop="20210217141000 +0800">
+    <title lang="zh">标清 瘦长怪人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202134100 +0800" channel="101" stop="20210202150200 +0800">
-    <title lang="zh">标清 最后探戈</title>
+  <programme start="20210217141000 +0800" channel="101" stop="20210217153600 +0800">
+    <title lang="zh">标清 乐动我心</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202150200 +0800" channel="101" stop="20210202164200 +0800">
-    <title lang="zh">标清 小森林</title>
+  <programme start="20210217153600 +0800" channel="101" stop="20210217170400 +0800">
+    <title lang="zh">标清 瘦长怪人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202164200 +0800" channel="101" stop="20210202175200 +0800">
-    <title lang="zh">标清 俘获女孩心</title>
+  <programme start="20210217170400 +0800" channel="101" stop="20210217183000 +0800">
+    <title lang="zh">标清 乐动我心</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202175200 +0800" channel="101" stop="20210202191300 +0800">
-    <title lang="zh">标清 托斯塔纳天堂</title>
+  <programme start="20210217183000 +0800" channel="101" stop="20210217195800 +0800">
+    <title lang="zh">标清 瘦长怪人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202191300 +0800" channel="101" stop="20210202203700 +0800">
-    <title lang="zh">标清 生命中最美好的一天</title>
+  <programme start="20210217195800 +0800" channel="101" stop="20210217212500 +0800">
+    <title lang="zh">标清 乐动我心</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202203700 +0800" channel="101" stop="20210202215900 +0800">
-    <title lang="zh">标清 最后探戈</title>
+  <programme start="20210217212500 +0800" channel="101" stop="20210217225200 +0800">
+    <title lang="zh">标清 瘦长怪人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202215900 +0800" channel="101" stop="20210202233900 +0800">
-    <title lang="zh">标清 小森林</title>
+  <programme start="20210217225200 +0800" channel="101" stop="20210218001900 +0800">
+    <title lang="zh">标清 乐动我心</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202233900 +0800" channel="101" stop="20210203010000 +0800">
-    <title lang="zh">标清 托斯塔纳天堂</title>
+  <programme start="20210218001900 +0800" channel="101" stop="20210218014700 +0800">
+    <title lang="zh">标清 瘦长怪人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203010000 +0800" channel="101" stop="20210203022400 +0800">
-    <title lang="zh">标清 生命中最美好的一天</title>
+  <programme start="20210218014700 +0800" channel="101" stop="20210218031300 +0800">
+    <title lang="zh">标清 乐动我心</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203022400 +0800" channel="101" stop="20210203040000 +0800">
-    <title lang="zh">标清 小森林</title>
+  <programme start="20210218031300 +0800" channel="101" stop="20210218040000 +0800">
+    <title lang="zh">标清 歌唱祖国·一首歌一座城</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203040000 +0800" channel="101" stop="20210203051900 +0800">
-    <title lang="zh">标清 模拟</title>
+  <programme start="20210218040000 +0800" channel="101" stop="20210218052700 +0800">
+    <title lang="zh">标清 初生</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203051900 +0800" channel="101" stop="20210203065300 +0800">
-    <title lang="zh">标清 明天和每一天</title>
+  <programme start="20210218052700 +0800" channel="101" stop="20210218065800 +0800">
+    <title lang="zh">标清 奔跑吧，巴西人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203065300 +0800" channel="101" stop="20210203083100 +0800">
-    <title lang="zh">标清 有熊谷守一在的地方</title>
+  <programme start="20210218065800 +0800" channel="101" stop="20210218082500 +0800">
+    <title lang="zh">标清 初生</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203083100 +0800" channel="101" stop="20210203103100 +0800">
-    <title lang="zh">标清 彼布利亚古书堂事件手帖</title>
+  <programme start="20210218082500 +0800" channel="101" stop="20210218095600 +0800">
+    <title lang="zh">标清 奔跑吧，巴西人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203103100 +0800" channel="101" stop="20210203121200 +0800">
-    <title lang="zh">标清 翩翩人生波琳娜</title>
+  <programme start="20210218095600 +0800" channel="101" stop="20210218112300 +0800">
+    <title lang="zh">标清 初生</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203121200 +0800" channel="101" stop="20210203133100 +0800">
-    <title lang="zh">标清 模拟</title>
+  <programme start="20210218112300 +0800" channel="101" stop="20210218125400 +0800">
+    <title lang="zh">标清 奔跑吧，巴西人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203133100 +0800" channel="101" stop="20210203150500 +0800">
-    <title lang="zh">标清 明天和每一天</title>
+  <programme start="20210218125400 +0800" channel="101" stop="20210218142200 +0800">
+    <title lang="zh">标清 初生</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203150500 +0800" channel="101" stop="20210203164300 +0800">
-    <title lang="zh">标清 有熊谷守一在的地方</title>
+  <programme start="20210218142200 +0800" channel="101" stop="20210218155200 +0800">
+    <title lang="zh">标清 奔跑吧，巴西人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203164300 +0800" channel="101" stop="20210203184300 +0800">
-    <title lang="zh">标清 彼布利亚古书堂事件手帖</title>
+  <programme start="20210218155200 +0800" channel="101" stop="20210218172000 +0800">
+    <title lang="zh">标清 初生</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203184300 +0800" channel="101" stop="20210203202400 +0800">
-    <title lang="zh">标清 翩翩人生波琳娜</title>
+  <programme start="20210218172000 +0800" channel="101" stop="20210218185000 +0800">
+    <title lang="zh">标清 奔跑吧，巴西人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203202400 +0800" channel="101" stop="20210203214300 +0800">
-    <title lang="zh">标清 模拟</title>
+  <programme start="20210218185000 +0800" channel="101" stop="20210218201800 +0800">
+    <title lang="zh">标清 初生</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203214300 +0800" channel="101" stop="20210203231700 +0800">
-    <title lang="zh">标清 明天和每一天</title>
+  <programme start="20210218201800 +0800" channel="101" stop="20210218214800 +0800">
+    <title lang="zh">标清 奔跑吧，巴西人</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203231700 +0800" channel="101" stop="20210203005600 +0800">
-    <title lang="zh">标清 有熊谷守一在的地方</title>
+  <programme start="20210218214800 +0800" channel="101" stop="20210218231600 +0800">
+    <title lang="zh">标清 初生</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218231600 +0800" channel="101" stop="20210218004600 +0800">
+    <title lang="zh">标清 奔跑吧，巴西人</title>
     <desc lang="zh">  </desc>
   </programme>
   <channel id="1875">
     <display-name lang="zh">BTV影视</display-name>
   </channel>
-  <programme start="20210202002600 +0800" channel="1875" stop="20210202011500 +0800">
+  <programme start="20210217002600 +0800" channel="1875" stop="20210217011500 +0800">
     <title lang="zh">英雄剧场-1</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202011500 +0800" channel="1875" stop="20210202020400 +0800">
+  <programme start="20210217011500 +0800" channel="1875" stop="20210217020400 +0800">
     <title lang="zh">英雄剧场-2</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202020400 +0800" channel="1875" stop="20210202024900 +0800">
+  <programme start="20210217020400 +0800" channel="1875" stop="20210217024900 +0800">
     <title lang="zh">星光剧场-1</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202024900 +0800" channel="1875" stop="20210202033400 +0800">
+  <programme start="20210217024900 +0800" channel="1875" stop="20210217033400 +0800">
     <title lang="zh">星光剧场-2</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202033400 +0800" channel="1875" stop="20210202041900 +0800">
+  <programme start="20210217033400 +0800" channel="1875" stop="20210217041900 +0800">
     <title lang="zh">星光剧场-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202041900 +0800" channel="1875" stop="20210202050400 +0800">
+  <programme start="20210217041900 +0800" channel="1875" stop="20210217050400 +0800">
     <title lang="zh">星光剧场-4</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202050400 +0800" channel="1875" stop="20210202054900 +0800">
+  <programme start="20210217050400 +0800" channel="1875" stop="20210217054900 +0800">
     <title lang="zh">星光剧场-5</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202054900 +0800" channel="1875" stop="20210202063400 +0800">
+  <programme start="20210217054900 +0800" channel="1875" stop="20210217063400 +0800">
     <title lang="zh">星光剧场-6</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202063400 +0800" channel="1875" stop="20210202072500 +0800">
+  <programme start="20210217063400 +0800" channel="1875" stop="20210217072500 +0800">
     <title lang="zh">英雄剧场-1</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202072500 +0800" channel="1875" stop="20210202081600 +0800">
+  <programme start="20210217072500 +0800" channel="1875" stop="20210217081600 +0800">
     <title lang="zh">英雄剧场-2</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202081600 +0800" channel="1875" stop="20210202090400 +0800">
+  <programme start="20210217081600 +0800" channel="1875" stop="20210217090400 +0800">
     <title lang="zh">首都剧场-1</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202090400 +0800" channel="1875" stop="20210202095600 +0800">
+  <programme start="20210217090400 +0800" channel="1875" stop="20210217095600 +0800">
     <title lang="zh">首都剧场-2</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202095600 +0800" channel="1875" stop="20210202104800 +0800">
+  <programme start="20210217095600 +0800" channel="1875" stop="20210217104800 +0800">
     <title lang="zh">首都剧场-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202104800 +0800" channel="1875" stop="20210202113800 +0800">
+  <programme start="20210217104800 +0800" channel="1875" stop="20210217113800 +0800">
     <title lang="zh">首都剧场-4</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202113800 +0800" channel="1875" stop="20210202130500 +0800">
+  <programme start="20210217113800 +0800" channel="1875" stop="20210217130500 +0800">
     <title lang="zh">电影时间</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202130500 +0800" channel="1875" stop="20210202132300 +0800">
+  <programme start="20210217130500 +0800" channel="1875" stop="20210217132300 +0800">
     <title lang="zh">情景剧</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202132300 +0800" channel="1875" stop="20210202141700 +0800">
+  <programme start="20210217132300 +0800" channel="1875" stop="20210217141700 +0800">
     <title lang="zh">家和剧场-1</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202141700 +0800" channel="1875" stop="20210202151000 +0800">
+  <programme start="20210217141700 +0800" channel="1875" stop="20210217151000 +0800">
     <title lang="zh">家和剧场-2</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202151000 +0800" channel="1875" stop="20210202160300 +0800">
+  <programme start="20210217151000 +0800" channel="1875" stop="20210217160300 +0800">
     <title lang="zh">家和剧场-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202160300 +0800" channel="1875" stop="20210202165900 +0800">
+  <programme start="20210217160300 +0800" channel="1875" stop="20210217165900 +0800">
     <title lang="zh">家和剧场-4</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202165900 +0800" channel="1875" stop="20210202175900 +0800">
+  <programme start="20210217165900 +0800" channel="1875" stop="20210217175900 +0800">
     <title lang="zh">英雄剧场-1</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202175900 +0800" channel="1875" stop="20210202185500 +0800">
+  <programme start="20210217175900 +0800" channel="1875" stop="20210217185500 +0800">
     <title lang="zh">英雄剧场-2</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202185500 +0800" channel="1875" stop="20210202195200 +0800">
+  <programme start="20210217185500 +0800" channel="1875" stop="20210217195200 +0800">
     <title lang="zh">首都剧场-1</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202195200 +0800" channel="1875" stop="20210202204800 +0800">
+  <programme start="20210217195200 +0800" channel="1875" stop="20210217204800 +0800">
     <title lang="zh">首都剧场-2</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202204800 +0800" channel="1875" stop="20210202214500 +0800">
+  <programme start="20210217204800 +0800" channel="1875" stop="20210217214500 +0800">
     <title lang="zh">首都剧场-3</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202214500 +0800" channel="1875" stop="20210202224200 +0800">
+  <programme start="20210217214500 +0800" channel="1875" stop="20210217224200 +0800">
     <title lang="zh">首都剧场-4</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202224200 +0800" channel="1875" stop="20210203002600 +0800">
+  <programme start="20210217224200 +0800" channel="1875" stop="20210218001500 +0800">
     <title lang="zh">电影时间</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203002600 +0800" channel="1875" stop="20210203011500 +0800">
-    <title lang="zh">英雄剧场-1</title>
+  <programme start="20210218001500 +0800" channel="1875" stop="20210218011700 +0800">
+    <title lang="zh">小妮扛枪</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203011500 +0800" channel="1875" stop="20210203020400 +0800">
-    <title lang="zh">英雄剧场-2</title>
+  <programme start="20210218011700 +0800" channel="1875" stop="20210218015500 +0800">
+    <title lang="zh">小妮扛枪</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203020400 +0800" channel="1875" stop="20210203024900 +0800">
-    <title lang="zh">星光剧场-1</title>
+  <programme start="20210218015500 +0800" channel="1875" stop="20210218020100 +0800">
+    <title lang="zh">星光剧场:密战无声</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203024900 +0800" channel="1875" stop="20210203033400 +0800">
-    <title lang="zh">星光剧场-2</title>
+  <programme start="20210218020100 +0800" channel="1875" stop="20210218024600 +0800">
+    <title lang="zh">星光剧场:密战无声</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203033400 +0800" channel="1875" stop="20210203041900 +0800">
-    <title lang="zh">星光剧场-3</title>
+  <programme start="20210218024600 +0800" channel="1875" stop="20210218033000 +0800">
+    <title lang="zh">星光剧场:决胜</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203041900 +0800" channel="1875" stop="20210203050400 +0800">
-    <title lang="zh">星光剧场-4</title>
+  <programme start="20210218033000 +0800" channel="1875" stop="20210218041400 +0800">
+    <title lang="zh">星光剧场:决胜</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203050400 +0800" channel="1875" stop="20210203054900 +0800">
-    <title lang="zh">星光剧场-5</title>
+  <programme start="20210218041400 +0800" channel="1875" stop="20210218045800 +0800">
+    <title lang="zh">星光剧场:决胜</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203054900 +0800" channel="1875" stop="20210203063400 +0800">
-    <title lang="zh">星光剧场-6</title>
+  <programme start="20210218045800 +0800" channel="1875" stop="20210218054200 +0800">
+    <title lang="zh">星光剧场:飞哥大英雄</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203063400 +0800" channel="1875" stop="20210203072500 +0800">
-    <title lang="zh">英雄剧场-1</title>
+  <programme start="20210218054200 +0800" channel="1875" stop="20210218070100 +0800">
+    <title lang="zh">星光剧场:飞哥大英雄</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203072500 +0800" channel="1875" stop="20210203081600 +0800">
-    <title lang="zh">英雄剧场-2</title>
+  <programme start="20210218070100 +0800" channel="1875" stop="20210218074000 +0800">
+    <title lang="zh">早剧场:知否知否应是绿肥红瘦</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203081600 +0800" channel="1875" stop="20210203090400 +0800">
-    <title lang="zh">首都剧场-1</title>
+  <programme start="20210218074000 +0800" channel="1875" stop="20210218080100 +0800">
+    <title lang="zh">早剧场:知否知否应是绿肥红瘦</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203090400 +0800" channel="1875" stop="20210203095600 +0800">
-    <title lang="zh">首都剧场-2</title>
+  <programme start="20210218080100 +0800" channel="1875" stop="20210218084600 +0800">
+    <title lang="zh">首都剧场:飞哥大英雄</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203095600 +0800" channel="1875" stop="20210203104800 +0800">
-    <title lang="zh">首都剧场-3</title>
+  <programme start="20210218084600 +0800" channel="1875" stop="20210218092600 +0800">
+    <title lang="zh">首都剧场:飞哥大英雄</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203104800 +0800" channel="1875" stop="20210203113800 +0800">
-    <title lang="zh">首都剧场-4</title>
+  <programme start="20210218092600 +0800" channel="1875" stop="20210218101000 +0800">
+    <title lang="zh">首都剧场:飞哥大英雄</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203113800 +0800" channel="1875" stop="20210203130500 +0800">
-    <title lang="zh">电影时间</title>
+  <programme start="20210218101000 +0800" channel="1875" stop="20210218113800 +0800">
+    <title lang="zh">首都剧场:飞哥大英雄</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203130500 +0800" channel="1875" stop="20210203132300 +0800">
-    <title lang="zh">情景剧</title>
+  <programme start="20210218113800 +0800" channel="1875" stop="20210218124000 +0800">
+    <title lang="zh">目击者</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203132300 +0800" channel="1875" stop="20210203141700 +0800">
-    <title lang="zh">家和剧场-1</title>
+  <programme start="20210218124000 +0800" channel="1875" stop="20210218131300 +0800">
+    <title lang="zh">目击者</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203141700 +0800" channel="1875" stop="20210203151000 +0800">
-    <title lang="zh">家和剧场-2</title>
+  <programme start="20210218131300 +0800" channel="1875" stop="20210218140700 +0800">
+    <title lang="zh">小鱼儿与花无缺</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203151000 +0800" channel="1875" stop="20210203160300 +0800">
-    <title lang="zh">家和剧场-3</title>
+  <programme start="20210218140700 +0800" channel="1875" stop="20210218150500 +0800">
+    <title lang="zh">小鱼儿与花无缺</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203160300 +0800" channel="1875" stop="20210203165900 +0800">
-    <title lang="zh">家和剧场-4</title>
+  <programme start="20210218150500 +0800" channel="1875" stop="20210218153500 +0800">
+    <title lang="zh">小鱼儿与花无缺</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203165900 +0800" channel="1875" stop="20210203175900 +0800">
-    <title lang="zh">英雄剧场-1</title>
+  <programme start="20210218153500 +0800" channel="1875" stop="20210218160500 +0800">
+    <title lang="zh">小鱼儿与花无缺</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203175900 +0800" channel="1875" stop="20210203185500 +0800">
-    <title lang="zh">英雄剧场-2</title>
+  <programme start="20210218160500 +0800" channel="1875" stop="20210218164000 +0800">
+    <title lang="zh">逃命</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203185500 +0800" channel="1875" stop="20210203195200 +0800">
-    <title lang="zh">首都剧场-1</title>
+  <programme start="20210218164000 +0800" channel="1875" stop="20210218170000 +0800">
+    <title lang="zh">逃命</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203195200 +0800" channel="1875" stop="20210203204800 +0800">
-    <title lang="zh">首都剧场-2</title>
+  <programme start="20210218170000 +0800" channel="1875" stop="20210218175700 +0800">
+    <title lang="zh">英雄剧场:三叉戟</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203204800 +0800" channel="1875" stop="20210203214500 +0800">
-    <title lang="zh">首都剧场-3</title>
+  <programme start="20210218175700 +0800" channel="1875" stop="20210218184900 +0800">
+    <title lang="zh">英雄剧场:三叉戟</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203214500 +0800" channel="1875" stop="20210203224200 +0800">
-    <title lang="zh">首都剧场-4</title>
+  <programme start="20210218184900 +0800" channel="1875" stop="20210218185500 +0800">
+    <title lang="zh">气象星播报</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203224200 +0800" channel="1875" stop="20210203235900 +0800">
-    <title lang="zh">电影时间</title>
+  <programme start="20210218185500 +0800" channel="1875" stop="20210218193900 +0800">
+    <title lang="zh">首都剧场:飞哥大英雄</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218193900 +0800" channel="1875" stop="20210218202500 +0800">
+    <title lang="zh">首都剧场:飞哥大英雄</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218202500 +0800" channel="1875" stop="20210218210900 +0800">
+    <title lang="zh">首都剧场:飞哥大英雄</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218210900 +0800" channel="1875" stop="20210218214800 +0800">
+    <title lang="zh">首都剧场:飞哥大英雄</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218214800 +0800" channel="1875" stop="20210218221000 +0800">
+    <title lang="zh">剧场:迷网追凶</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218221000 +0800" channel="1875" stop="20210218223400 +0800">
+    <title lang="zh">剧场:迷网追凶</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218223400 +0800" channel="1875" stop="20210218230100 +0800">
+    <title lang="zh">目击者</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218230100 +0800" channel="1875" stop="20210218235900 +0800">
+    <title lang="zh">目击者</title>
     <desc lang="zh">  </desc>
   </programme>
   <channel id="2060">
     <display-name lang="zh">峨嵋电影</display-name>
   </channel>
-  <programme start="20210202000000 +0800" channel="2060" stop="20210202012200 +0800">
-    <title lang="zh">电影《白宫管家》</title>
+  <programme start="20210217000000 +0800" channel="2060" stop="20210217021300 +0800">
+    <title lang="zh">电影《赤道》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202012200 +0800" channel="2060" stop="20210202032200 +0800">
-    <title lang="zh">电影《洛杉矶之战》</title>
+  <programme start="20210217021300 +0800" channel="2060" stop="20210217042200 +0800">
+    <title lang="zh">电影《被解放的姜戈》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202032200 +0800" channel="2060" stop="20210202044900 +0800">
-    <title lang="zh">电影《伦敦陷落》</title>
+  <programme start="20210217042200 +0800" channel="2060" stop="20210217061300 +0800">
+    <title lang="zh">电影《侏罗纪世界》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202044900 +0800" channel="2060" stop="20210202061100 +0800">
-    <title lang="zh">电影《美国队长2》</title>
+  <programme start="20210217061300 +0800" channel="2060" stop="20210217081400 +0800">
+    <title lang="zh">电影《大话股神》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202061100 +0800" channel="2060" stop="20210202080000 +0800">
-    <title lang="zh">电影《奇异博士》</title>
+  <programme start="20210217081400 +0800" channel="2060" stop="20210217113500 +0800">
+    <title lang="zh">电影《复仇者联盟》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202080000 +0800" channel="2060" stop="20210202100200 +0800">
-    <title lang="zh">电影《热那亚》</title>
+  <programme start="20210217113500 +0800" channel="2060" stop="20210217143700 +0800">
+    <title lang="zh">电影《海扁王》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202100200 +0800" channel="2060" stop="20210202114000 +0800">
-    <title lang="zh">电影《扫毒》</title>
+  <programme start="20210217143700 +0800" channel="2060" stop="20210217164800 +0800">
+    <title lang="zh">电影《唐人街探案2》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202114000 +0800" channel="2060" stop="20210202134000 +0800">
-    <title lang="zh">电影《狄仁杰之四大天王》</title>
+  <programme start="20210217164800 +0800" channel="2060" stop="20210217174000 +0800">
+    <title lang="zh">电影《三人行》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202134000 +0800" channel="2060" stop="20210202154000 +0800">
-    <title lang="zh">电影《追龙》</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202154000 +0800" channel="2060" stop="20210202174000 +0800">
-    <title lang="zh">电影《杀破狼之贪狼》</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202174000 +0800" channel="2060" stop="20210202181000 +0800">
+  <programme start="20210217174000 +0800" channel="2060" stop="20210217181000 +0800">
     <title lang="zh">《HD天天有礼》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202181000 +0800" channel="2060" stop="20210202194000 +0800">
+  <programme start="20210217181000 +0800" channel="2060" stop="20210217194000 +0800">
     <title lang="zh">《影视头等舱A》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202194000 +0800" channel="2060" stop="20210202210000 +0800">
+  <programme start="20210217194000 +0800" channel="2060" stop="20210217210000 +0800">
     <title lang="zh">《影视头等舱B》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202210000 +0800" channel="2060" stop="20210202211500 +0800">
+  <programme start="20210217210000 +0800" channel="2060" stop="20210217211500 +0800">
     <title lang="zh">《四川味道》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202211500 +0800" channel="2060" stop="20210203000000 +0800">
+  <programme start="20210217211500 +0800" channel="2060" stop="20210217233000 +0800">
     <title lang="zh">《晚间电影》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203000000 +0800" channel="2060" stop="20210203021300 +0800">
+  <programme start="20210217233000 +0800" channel="2060" stop="20210218000000 +0800">
     <title lang="zh">电影《攀登者》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203021300 +0800" channel="2060" stop="20210203042200 +0800">
-    <title lang="zh">电影《国家宝藏》</title>
+  <programme start="20210218000000 +0800" channel="2060" stop="20210218030600 +0800">
+    <title lang="zh">电影《攀登者》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203042200 +0800" channel="2060" stop="20210203061300 +0800">
-    <title lang="zh">电影《忍者神鬼》</title>
+  <programme start="20210218030600 +0800" channel="2060" stop="20210218050700 +0800">
+    <title lang="zh">电影《超级军舰》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203061300 +0800" channel="2060" stop="20210203081400 +0800">
-    <title lang="zh">电影《深海寻人》</title>
+  <programme start="20210218050700 +0800" channel="2060" stop="20210218070500 +0800">
+    <title lang="zh">电影《单身男女》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203081400 +0800" channel="2060" stop="20210203113500 +0800">
-    <title lang="zh">电影《反贪风暴4》</title>
+  <programme start="20210218070500 +0800" channel="2060" stop="20210218093500 +0800">
+    <title lang="zh">电影《单身男女2》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203113500 +0800" channel="2060" stop="20210203143700 +0800">
-    <title lang="zh">电影《海扁王2》</title>
+  <programme start="20210218093500 +0800" channel="2060" stop="20210218125500 +0800">
+    <title lang="zh">电影《大人物》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203143700 +0800" channel="2060" stop="20210203164800 +0800">
-    <title lang="zh">电影《长江七号》</title>
+  <programme start="20210218125500 +0800" channel="2060" stop="20210218154400 +0800">
+    <title lang="zh">电影《匆匆那年》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203164800 +0800" channel="2060" stop="20210203174000 +0800">
-    <title lang="zh">电影《我是路人甲》</title>
+  <programme start="20210218154400 +0800" channel="2060" stop="20210218174000 +0800">
+    <title lang="zh">电影《分裂》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203174000 +0800" channel="2060" stop="20210203181000 +0800">
+  <programme start="20210218174000 +0800" channel="2060" stop="20210218181000 +0800">
     <title lang="zh">《HD天天有礼》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203181000 +0800" channel="2060" stop="20210203194000 +0800">
+  <programme start="20210218181000 +0800" channel="2060" stop="20210218194000 +0800">
     <title lang="zh">《影视头等舱A》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203194000 +0800" channel="2060" stop="20210203210000 +0800">
+  <programme start="20210218194000 +0800" channel="2060" stop="20210218210000 +0800">
     <title lang="zh">《影视头等舱B》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203210000 +0800" channel="2060" stop="20210203211500 +0800">
+  <programme start="20210218210000 +0800" channel="2060" stop="20210218211500 +0800">
     <title lang="zh">《四川味道》</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203211500 +0800" channel="2060" stop="20210203235900 +0800">
+  <programme start="20210218211500 +0800" channel="2060" stop="20210218233000 +0800">
     <title lang="zh">《晚间电影》</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218233000 +0800" channel="2060" stop="20210218235900 +0800">
+    <title lang="zh">电影《大兵小将》</title>
     <desc lang="zh">  </desc>
   </programme>
   <channel id="6241">
     <display-name lang="zh">CHC高清电影</display-name>
   </channel>
-  <programme start="20210202011500 +0800" channel="6241" stop="20210202060000 +0800">
-    <title lang="zh">暗器</title>
+  <programme start="20210217011400 +0800" channel="6241" stop="20210217060000 +0800">
+    <title lang="zh">枪响烧锅镇</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202060000 +0800" channel="6241" stop="20210202073800 +0800">
-    <title lang="zh">温暖之城之红日亭</title>
+  <programme start="20210217060000 +0800" channel="6241" stop="20210217075000 +0800">
+    <title lang="zh">李宗伟-败者为王</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202073800 +0800" channel="6241" stop="20210202091300 +0800">
-    <title lang="zh">御医传奇</title>
+  <programme start="20210217075000 +0800" channel="6241" stop="20210217092400 +0800">
+    <title lang="zh">美酒人生</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202091300 +0800" channel="6241" stop="20210202110200 +0800">
-    <title lang="zh">布丁武士</title>
+  <programme start="20210217092400 +0800" channel="6241" stop="20210217105900 +0800">
+    <title lang="zh">有五个姐姐的我就注定要单身了啊</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202110200 +0800" channel="6241" stop="20210202120400 +0800">
-    <title lang="zh">西葫芦的生活</title>
+  <programme start="20210217105900 +0800" channel="6241" stop="20210217125600 +0800">
+    <title lang="zh">1864</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202120400 +0800" channel="6241" stop="20210202134900 +0800">
-    <title lang="zh">泰山归来-险战丛林</title>
+  <programme start="20210217125600 +0800" channel="6241" stop="20210217143800 +0800">
+    <title lang="zh">南方烹调师</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202134900 +0800" channel="6241" stop="20210202153700 +0800">
-    <title lang="zh">无名之辈</title>
+  <programme start="20210217143800 +0800" channel="6241" stop="20210217165000 +0800">
+    <title lang="zh">最后一球</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202153700 +0800" channel="6241" stop="20210202171300 +0800">
-    <title lang="zh">爱你是我做过最好的事</title>
+  <programme start="20210217165000 +0800" channel="6241" stop="20210217182600 +0800">
+    <title lang="zh">红色之子·单刀赴会</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202171300 +0800" channel="6241" stop="20210202185500 +0800">
-    <title lang="zh">大师兄</title>
+  <programme start="20210217182600 +0800" channel="6241" stop="20210217195500 +0800">
+    <title lang="zh">沂蒙之恋</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202185500 +0800" channel="6241" stop="20210202203100 +0800">
-    <title lang="zh">亲密旅行</title>
+  <programme start="20210217195500 +0800" channel="6241" stop="20210217220000 +0800">
+    <title lang="zh">一代宗师</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202203100 +0800" channel="6241" stop="20210202220000 +0800">
-    <title lang="zh">夺樽</title>
+  <programme start="20210217220000 +0800" channel="6241" stop="20210217233200 +0800">
+    <title lang="zh">我们的未来</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202220000 +0800" channel="6241" stop="20210202234000 +0800">
-    <title lang="zh">英国博士东北妞</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202234000 +0800" channel="6241" stop="20210202235900 +0800">
-    <title lang="zh">喀赞其的姑娘</title>
+  <programme start="20210217233200 +0800" channel="6241" stop="20210217235900 +0800">
+    <title lang="zh">过昭关</title>
     <desc lang="zh">  </desc>
   </programme>
   <channel id="6246">
     <display-name lang="zh">CHC家庭电影</display-name>
   </channel>
-  <programme start="20210202012500 +0800" channel="6246" stop="20210202025500 +0800">
-    <title lang="zh">影院</title>
+  <programme start="20210217011300 +0800" channel="6246" stop="20210217011500 +0800">
+    <title lang="zh">电影情报站</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202025500 +0800" channel="6246" stop="20210202043000 +0800">
-    <title lang="zh">电影</title>
+  <programme start="20210217011500 +0800" channel="6246" stop="20210217024300 +0800">
+    <title lang="zh">把家虎</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202043000 +0800" channel="6246" stop="20210202062000 +0800">
-    <title lang="zh">影院</title>
+  <programme start="20210217024300 +0800" channel="6246" stop="20210217024500 +0800">
+    <title lang="zh">电影情报站</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202062000 +0800" channel="6246" stop="20210202075500 +0800">
-    <title lang="zh">电影</title>
+  <programme start="20210217024500 +0800" channel="6246" stop="20210217042700 +0800">
+    <title lang="zh">喜欢你</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202075500 +0800" channel="6246" stop="20210202092000 +0800">
-    <title lang="zh">影院</title>
+  <programme start="20210217042700 +0800" channel="6246" stop="20210217043000 +0800">
+    <title lang="zh">电影情报站</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202092000 +0800" channel="6246" stop="20210202105000 +0800">
-    <title lang="zh">电影</title>
+  <programme start="20210217043000 +0800" channel="6246" stop="20210217061300 +0800">
+    <title lang="zh">无名之辈</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202105000 +0800" channel="6246" stop="20210202122000 +0800">
-    <title lang="zh">影院</title>
+  <programme start="20210217061300 +0800" channel="6246" stop="20210217061500 +0800">
+    <title lang="zh">电影情报站</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202122000 +0800" channel="6246" stop="20210202135000 +0800">
-    <title lang="zh">电影</title>
+  <programme start="20210217061500 +0800" channel="6246" stop="20210217075700 +0800">
+    <title lang="zh">功夫瑜伽</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202135000 +0800" channel="6246" stop="20210202151000 +0800">
-    <title lang="zh">影院</title>
+  <programme start="20210217075700 +0800" channel="6246" stop="20210217080000 +0800">
+    <title lang="zh">电影情报站</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202151000 +0800" channel="6246" stop="20210202164500 +0800">
-    <title lang="zh">电影</title>
+  <programme start="20210217080000 +0800" channel="6246" stop="20210217094800 +0800">
+    <title lang="zh">左耳</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202164500 +0800" channel="6246" stop="20210202181500 +0800">
-    <title lang="zh">影院</title>
+  <programme start="20210217094800 +0800" channel="6246" stop="20210217095000 +0800">
+    <title lang="zh">电影情报站</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202181500 +0800" channel="6246" stop="20210202195000 +0800">
-    <title lang="zh">电影</title>
+  <programme start="20210217095000 +0800" channel="6246" stop="20210217112000 +0800">
+    <title lang="zh">樱桃小丸子-来自意大利的少年</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202195000 +0800" channel="6246" stop="20210202220000 +0800">
-    <title lang="zh">影院</title>
+  <programme start="20210217112000 +0800" channel="6246" stop="20210217112500 +0800">
+    <title lang="zh">电影情报站</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202220000 +0800" channel="6246" stop="20210202231500 +0800">
-    <title lang="zh">电影</title>
+  <programme start="20210217112500 +0800" channel="6246" stop="20210217130200 +0800">
+    <title lang="zh">一念天堂</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202231500 +0800" channel="6246" stop="20210202235900 +0800">
-    <title lang="zh">影院</title>
+  <programme start="20210217130200 +0800" channel="6246" stop="20210217130500 +0800">
+    <title lang="zh">电影情报站</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217130500 +0800" channel="6246" stop="20210217144900 +0800">
+    <title lang="zh">第一小分队</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217144900 +0800" channel="6246" stop="20210217145000 +0800">
+    <title lang="zh">电影情报站</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217145000 +0800" channel="6246" stop="20210217163700 +0800">
+    <title lang="zh">受益人</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217163700 +0800" channel="6246" stop="20210217164000 +0800">
+    <title lang="zh">电影情报站</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217164000 +0800" channel="6246" stop="20210217184100 +0800">
+    <title lang="zh">隐藏人物</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217184100 +0800" channel="6246" stop="20210217184500 +0800">
+    <title lang="zh">电影情报站</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217184500 +0800" channel="6246" stop="20210217202800 +0800">
+    <title lang="zh">嫌疑人x的献身</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217202800 +0800" channel="6246" stop="20210217203000 +0800">
+    <title lang="zh">电影情报站</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217203000 +0800" channel="6246" stop="20210217215700 +0800">
+    <title lang="zh">零点杀机</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217215700 +0800" channel="6246" stop="20210217220000 +0800">
+    <title lang="zh">电影情报站</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217220000 +0800" channel="6246" stop="20210217232200 +0800">
+    <title lang="zh">在世界转角遇见爱</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217232200 +0800" channel="6246" stop="20210217232500 +0800">
+    <title lang="zh">电影情报站</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217232500 +0800" channel="6246" stop="20210217235900 +0800">
+    <title lang="zh">武林风云</title>
     <desc lang="zh">  </desc>
   </programme>
   <channel id="6245">
     <display-name lang="zh">CHC动作电影</display-name>
   </channel>
-  <programme start="20210202020000 +0800" channel="6245" stop="20210202032500 +0800">
-    <title lang="zh">鹰爪门</title>
+  <programme start="20210217013500 +0800" channel="6245" stop="20210217030500 +0800">
+    <title lang="zh">黄飞鸿</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202032500 +0800" channel="6245" stop="20210202045500 +0800">
-    <title lang="zh">梅格雷的陷阱</title>
+  <programme start="20210217030500 +0800" channel="6245" stop="20210217044000 +0800">
+    <title lang="zh">惊情</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202045500 +0800" channel="6245" stop="20210202062000 +0800">
-    <title lang="zh">秘闯金三角</title>
+  <programme start="20210217044000 +0800" channel="6245" stop="20210217061000 +0800">
+    <title lang="zh">混世魔王樊瑞</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202062000 +0800" channel="6245" stop="20210202074000 +0800">
-    <title lang="zh">龙虎群英</title>
+  <programme start="20210217061000 +0800" channel="6245" stop="20210217074500 +0800">
+    <title lang="zh">碧瑶霜迷案</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202074000 +0800" channel="6245" stop="20210202091000 +0800">
-    <title lang="zh">七海游侠破谍网</title>
+  <programme start="20210217074500 +0800" channel="6245" stop="20210217092500 +0800">
+    <title lang="zh">侠骨游医</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202091000 +0800" channel="6245" stop="20210202105500 +0800">
-    <title lang="zh">长安侠影之天谴之谜</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202105500 +0800" channel="6245" stop="20210202122500 +0800">
-    <title lang="zh">木棉袈裟</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202122500 +0800" channel="6245" stop="20210202135000 +0800">
-    <title lang="zh">出笼马骝</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202135000 +0800" channel="6245" stop="20210202153000 +0800">
-    <title lang="zh">残缺</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202153000 +0800" channel="6245" stop="20210202170500 +0800">
-    <title lang="zh">大内密探灵灵狗</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202170500 +0800" channel="6245" stop="20210202183500 +0800">
-    <title lang="zh">旷野孤雏</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202183500 +0800" channel="6245" stop="20210202203000 +0800">
-    <title lang="zh">一代天骄-成吉思汗</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202203000 +0800" channel="6245" stop="20210202220500 +0800">
-    <title lang="zh">蔡李佛拳</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210202220500 +0800" channel="6245" stop="20210203001000 +0800">
-    <title lang="zh">加勒比海盗Ⅴ</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203001000 +0800" channel="6245" stop="20210203014000 +0800">
-    <title lang="zh">唐卡迷踪</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203014000 +0800" channel="6245" stop="20210203031500 +0800">
-    <title lang="zh">异星觉醒</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203031500 +0800" channel="6245" stop="20210203050000 +0800">
-    <title lang="zh">教头</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203050000 +0800" channel="6245" stop="20210203063500 +0800">
-    <title lang="zh">保镖玫瑰</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203063500 +0800" channel="6245" stop="20210203080000 +0800">
-    <title lang="zh">笑傲人生</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203080000 +0800" channel="6245" stop="20210203093500 +0800">
-    <title lang="zh">剿匪龙虎山</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203093500 +0800" channel="6245" stop="20210203111000 +0800">
-    <title lang="zh">李元霸与宇文成都</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203111000 +0800" channel="6245" stop="20210203124500 +0800">
-    <title lang="zh">萧锋血战陈庄</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203124500 +0800" channel="6245" stop="20210203141500 +0800">
-    <title lang="zh">最萌警探</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203141500 +0800" channel="6245" stop="20210203161000 +0800">
-    <title lang="zh">金刚-骷髅岛</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203161000 +0800" channel="6245" stop="20210203174000 +0800">
-    <title lang="zh">侠肝义胆</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203174000 +0800" channel="6245" stop="20210203191000 +0800">
-    <title lang="zh">杀手的决定</title>
-    <desc lang="zh">  </desc>
-  </programme>
-  <programme start="20210203191000 +0800" channel="6245" stop="20210203203000 +0800">
+  <programme start="20210217092500 +0800" channel="6245" stop="20210217104500 +0800">
     <title lang="zh">金客·商客·镖客</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203203000 +0800" channel="6245" stop="20210203220000 +0800">
-    <title lang="zh">泰山功夫</title>
+  <programme start="20210217104500 +0800" channel="6245" stop="20210217122500 +0800">
+    <title lang="zh">弓马啸西风</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203220000 +0800" channel="6245" stop="20210203233000 +0800">
-    <title lang="zh">唐伯虎点秋香</title>
+  <programme start="20210217122500 +0800" channel="6245" stop="20210217140000 +0800">
+    <title lang="zh">异星觉醒</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203233000 +0800" channel="6245" stop="20210203235900 +0800">
-    <title lang="zh">狼牙关</title>
+  <programme start="20210217140000 +0800" channel="6245" stop="20210217154500 +0800">
+    <title lang="zh">拳击</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217154500 +0800" channel="6245" stop="20210217172000 +0800">
+    <title lang="zh">蔡李佛拳</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217172000 +0800" channel="6245" stop="20210217190000 +0800">
+    <title lang="zh">夺路而逃</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217190000 +0800" channel="6245" stop="20210217203000 +0800">
+    <title lang="zh">决战狂沙镇</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217203000 +0800" channel="6245" stop="20210217223000 +0800">
+    <title lang="zh">金刚川</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210217223000 +0800" channel="6245" stop="20210218003500 +0800">
+    <title lang="zh">妖猫传</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218003500 +0800" channel="6245" stop="20210218021000 +0800">
+    <title lang="zh">新火烧红莲寺</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218021000 +0800" channel="6245" stop="20210218034500 +0800">
+    <title lang="zh">诱狼</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218034500 +0800" channel="6245" stop="20210218051500 +0800">
+    <title lang="zh">长安侠影之天朝死士</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218051500 +0800" channel="6245" stop="20210218065000 +0800">
+    <title lang="zh">八文钱的保镖</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218065000 +0800" channel="6245" stop="20210218081500 +0800">
+    <title lang="zh">狂野飞车</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218081500 +0800" channel="6245" stop="20210218100000 +0800">
+    <title lang="zh">长安侠影之天谴之谜</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218100000 +0800" channel="6245" stop="20210218112500 +0800">
+    <title lang="zh">出笼马骝</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218112500 +0800" channel="6245" stop="20210218125500 +0800">
+    <title lang="zh">渔王争霸</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218125500 +0800" channel="6245" stop="20210218142500 +0800">
+    <title lang="zh">围剿</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218142500 +0800" channel="6245" stop="20210218160500 +0800">
+    <title lang="zh">功夫联盟</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218160500 +0800" channel="6245" stop="20210218173000 +0800">
+    <title lang="zh">铜马铁燕传奇</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218173000 +0800" channel="6245" stop="20210218190500 +0800">
+    <title lang="zh">生死千里</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218190500 +0800" channel="6245" stop="20210218203000 +0800">
+    <title lang="zh">关东太阳会</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218203000 +0800" channel="6245" stop="20210218220000 +0800">
+    <title lang="zh">关东太阳会</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218220000 +0800" channel="6245" stop="20210218234000 +0800">
+    <title lang="zh">撕裂记忆体</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218234000 +0800" channel="6245" stop="20210218235900 +0800">
+    <title lang="zh">长城大决战</title>
     <desc lang="zh">  </desc>
   </programme>
   <channel id="6650">
     <display-name lang="zh">欧美影院</display-name>
   </channel>
-  <programme start="20210202021900 +0800" channel="6650" stop="20210202041600 +0800">
+  <programme start="20210217021900 +0800" channel="6650" stop="20210217041600 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202041600 +0800" channel="6650" stop="20210202041700 +0800">
+  <programme start="20210217041600 +0800" channel="6650" stop="20210217041700 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202041700 +0800" channel="6650" stop="20210202050000 +0800">
+  <programme start="20210217041700 +0800" channel="6650" stop="20210217050000 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202050000 +0800" channel="6650" stop="20210202065500 +0800">
+  <programme start="20210217050000 +0800" channel="6650" stop="20210217065500 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202065500 +0800" channel="6650" stop="20210202090400 +0800">
+  <programme start="20210217065500 +0800" channel="6650" stop="20210217090400 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202090400 +0800" channel="6650" stop="20210202104300 +0800">
+  <programme start="20210217090400 +0800" channel="6650" stop="20210217104300 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202104300 +0800" channel="6650" stop="20210202124600 +0800">
+  <programme start="20210217104300 +0800" channel="6650" stop="20210217124600 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202124600 +0800" channel="6650" stop="20210202141800 +0800">
+  <programme start="20210217124600 +0800" channel="6650" stop="20210217141800 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202141800 +0800" channel="6650" stop="20210202164100 +0800">
+  <programme start="20210217141800 +0800" channel="6650" stop="20210217164100 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202164100 +0800" channel="6650" stop="20210202183800 +0800">
+  <programme start="20210217164100 +0800" channel="6650" stop="20210217183800 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202183800 +0800" channel="6650" stop="20210202205200 +0800">
+  <programme start="20210217183800 +0800" channel="6650" stop="20210217205200 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202205200 +0800" channel="6650" stop="20210202224400 +0800">
+  <programme start="20210217205200 +0800" channel="6650" stop="20210217224400 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210202224400 +0800" channel="6650" stop="20210203001000 +0800">
+  <programme start="20210217224400 +0800" channel="6650" stop="20210218021900 +0800">
     <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203001000 +0800" channel="6650" stop="20210203020800 +0800">
-    <title lang="zh">惊天核网</title>
+  <programme start="20210218021900 +0800" channel="6650" stop="20210218041600 +0800">
+    <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203020800 +0800" channel="6650" stop="20210203061500 +0800">
-    <title lang="zh">迫降航班</title>
+  <programme start="20210218041600 +0800" channel="6650" stop="20210218041700 +0800">
+    <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203061500 +0800" channel="6650" stop="20210203080100 +0800">
-    <title lang="zh">偷天换日</title>
+  <programme start="20210218041700 +0800" channel="6650" stop="20210218050000 +0800">
+    <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203080100 +0800" channel="6650" stop="20210203105200 +0800">
-    <title lang="zh">寂静之城</title>
+  <programme start="20210218050000 +0800" channel="6650" stop="20210218065500 +0800">
+    <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203105200 +0800" channel="6650" stop="20210203122800 +0800">
-    <title lang="zh">皮卡德罗</title>
+  <programme start="20210218065500 +0800" channel="6650" stop="20210218090400 +0800">
+    <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203122800 +0800" channel="6650" stop="20210203141300 +0800">
-    <title lang="zh">蓝与黑</title>
+  <programme start="20210218090400 +0800" channel="6650" stop="20210218104300 +0800">
+    <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203141300 +0800" channel="6650" stop="20210203165900 +0800">
-    <title lang="zh">教父</title>
+  <programme start="20210218104300 +0800" channel="6650" stop="20210218124600 +0800">
+    <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203165900 +0800" channel="6650" stop="20210203185800 +0800">
-    <title lang="zh">惊天核网</title>
+  <programme start="20210218124600 +0800" channel="6650" stop="20210218141800 +0800">
+    <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203185800 +0800" channel="6650" stop="20210203223300 +0800">
-    <title lang="zh">零点定理</title>
+  <programme start="20210218141800 +0800" channel="6650" stop="20210218164100 +0800">
+    <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
-  <programme start="20210203223300 +0800" channel="6650" stop="20210203235900 +0800">
-    <title lang="zh">神奇动物在哪里</title>
+  <programme start="20210218164100 +0800" channel="6650" stop="20210218183800 +0800">
+    <title lang="zh">欧美影院</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218183800 +0800" channel="6650" stop="20210218205200 +0800">
+    <title lang="zh">欧美影院</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218205200 +0800" channel="6650" stop="20210218224400 +0800">
+    <title lang="zh">欧美影院</title>
+    <desc lang="zh">  </desc>
+  </programme>
+  <programme start="20210218224400 +0800" channel="6650" stop="20210218235900 +0800">
+    <title lang="zh">欧美影院</title>
     <desc lang="zh">  </desc>
   </programme>
 </tv>

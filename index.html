@@ -711,7 +711,7 @@ function Init(dl,ch,cd,cm,cy,offset) {
 </div>
 
 <!-- add -->
-<div style="float: left;color: red;padding-left: 40px;"><script type="text/javascript">document.write(maintext)</script></div>
+<div class="gridtimetitle"><script type="text/javascript">document.write(maintext)</script></div>
 
 <div style="float:right;">
 <!-- del
@@ -1120,10 +1120,32 @@ function handlesubmituserresponse() {
 </script>
 
 <!-- add touch to show title for mobile -->
-<script>
+<script type='text/javascript'>
 document.body.addEventListener('touchstart', function() {
   document.body.classList.add('touched');
 });
+</script>
+<!-- response to parent to handle theme -->
+<script type='text/javascript'>
+function theme(white) {
+
+    if (white) {
+        var style = document.querySelector('#theme-dark');
+        if (style) {
+            style.parentNode.removeChild(style);
+        }
+    }
+    else {
+        var head = document.querySelector('head');
+        var style = document.createElement('link');
+        style.rel = 'stylesheet';
+        style.type='text/css';
+        style.href = 'dark/' + getActiveStyleSheet() + '.css';
+        style.id = 'theme-dark';
+        head.appendChild(style);
+    }
+
+}
 </script>
 
 <!-- del

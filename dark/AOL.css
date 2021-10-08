@@ -1,0 +1,21 @@
+.gridtimetitle {
+    color : darkred;
+}
+#gridtime {
+    background-color: #1463a0;
+}
+th.channel {
+    background-color: #a5a39e;
+}
+tr.oddrow td {
+    background-color: #213232;
+}
+tr.evenrow td {
+    background-color: #212121;
+}
+td.program {
+    color: #dadada;
+}
+#listings {
+    border: 2px solid #b54100;
+}

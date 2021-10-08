@@ -1,0 +1,18 @@
+#gridtime {
+    background-color: #212121;
+}
+tr.timebar, th.channel {
+    background-color: #a0abbd;
+}
+td {
+    background-color: #212121;
+}
+th.time, th.channel {
+    color: #063a83;
+}
+td.extendleft, td.program, td.extendright {
+    color: #dadada;
+}
+th.topleftcorner, th.time, th.toprightcorner, th.channel, td {
+    border: 1px solid #808080;
+}

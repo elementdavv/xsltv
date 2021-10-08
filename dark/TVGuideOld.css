@@ -1,0 +1,6 @@
+th.channel {
+    background-color: #555
+}
+tr.timebar th, th.channel, td.extendleft, td.extendright, td.program {
+    color: #dadada;
+}

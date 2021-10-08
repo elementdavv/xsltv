@@ -1,17 +1,10 @@
 {
   "default": {
-    "data": "20210202"
-  },
-  "215a9d7b-e5b4-43ab-be68-2961e1a1c170": {
-    "created": "01/13/21 16:41:55",
-    "data": "20210202",
-    "ip": "::1",
-    "platform": "linux",
-    "browser": "Google Chrome 87.0.4280.88"
+    "data": "20210217"
   },
   "2f436c47-a919-464a-970c-71ffcfcc51e5": {
     "created": "02/02/21 18:48:50",
-    "data": "20210202",
+    "data": "20210223",
     "ip": "::1",
     "platform": "linux",
     "browser": "Google Chrome 87.0.4280.88"

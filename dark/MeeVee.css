@@ -1,0 +1,36 @@
+.gridtimetitle {
+    color: darkred;
+}
+#gridtime {
+    background-color: #0065a4;
+}
+tr.timebar {
+    background-color: #5f9db5;
+}
+th.channel {
+    background-color: #212121;
+}
+tr.oddrow td {
+    background-color: #213232;
+}
+tr.evenrow td {
+    background-color: #212121;
+}
+th.channel, td.program {
+    color: #dadada;
+}
+#listings {
+    border: 2px solid #006594;
+}
+th.topleftcorner, th.toprightcorner {
+    border-left: 1px solid #212121;
+    border-bottom: 1px solid #212121;
+    border-top: 1px solid #212121;
+    border-right: 1px solid #5f99b5;
+}
+th.time {
+    border : 1px solid #212121;
+}
+th.channel, td {
+    border: 1px solid #969696;
+}

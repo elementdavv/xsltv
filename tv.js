@@ -704,7 +704,7 @@ function FastDatePicker() {
 		var dayCounter = 1
 
         // edit
-        if (language == 'chinese') {
+        if (language == 'zh') {
 		    this.cellYearMonth.firstChild.nodeValue = this.date.getFullYear() + '年' + this.monthNames[this.date.getMonth()]
         }
         else {

@@ -1,0 +1,16 @@
+#gridtime, th.channel, td {
+    background-color: #212121;
+}
+tr.timebar {
+    background-color: #888;
+}
+tr.timebar th, th.channel, .leftchanneltable .channelname, td {
+    color: #dadada;
+}
+th.topleftcorner, th.toprightcorner, th.time {
+    border: 3px solid #212121;
+    border-bottom: 1px solid #dadada;
+}
+th.channel, td {
+    border: 1px solid #dadada;
+}

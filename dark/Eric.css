@@ -1,0 +1,21 @@
+.gridtimetitle {
+    color: darkred;
+}
+.leftchanneltable, .rightchanneltable, th.time, th.topleftcorner, th.toprightcorner, td {
+    color: #dadada;
+}
+th.time, #gridtime {
+    background-color: inherit;
+}
+td, th.channel {
+    background-color: #272727;
+}
+#listings {
+    border: 2px solid #212121;
+}
+td {
+    border: 2px outset #a0a0a0;
+}
+th.channel, .timebar th {
+    border: 1px solid #dadada;
+}

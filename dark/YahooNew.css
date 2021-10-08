@@ -1,0 +1,34 @@
+.gridtimetitle {
+    color : darkred;
+}
+#gridtime {
+    background: #858585;
+}
+tr.timebar {
+    background: #656565;
+}
+th.channel {
+    background: #757575;
+}
+td.extendleft, td.program, td.extendright {
+    background: #888;
+}
+th.time {
+    color: #a8a8a8;
+}
+th.channel {
+    color: #045266;
+}
+td.program {
+    color: #045266;
+}
+#listings {
+    background-color: #aaa;
+}
+th.channel {
+    border: 1px solid #5c5d4b;
+}
+td {
+    border-left: 1px solid #424242;
+    border-right: 1px solid #424242;
+}

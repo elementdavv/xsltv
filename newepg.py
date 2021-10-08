@@ -8,27 +8,28 @@ run with -d to download e.xml
 import sys
 import os
 import requests
+from requests.exceptions import RequestException
 import xmltv
 
 EPGURL = "http://epg.51zmt.top:8000/e.xml"
 EPGXML = "e.xml"
 ALLCHN = "all.chn"
 
-currentdir = os.path.dirname(os.path.realpath(__file__))
-ename = os.path.join(currentdir, EPGXML)
-aname = os.path.join(currentdir, ALLCHN)
+CURRENTDIR = os.path.dirname(os.path.realpath(__file__))
+ENAME = os.path.join(CURRENTDIR, EPGXML)
+ANAME = os.path.join(CURRENTDIR, ALLCHN)
 
 if len(sys.argv) > 1 and sys.argv[1] == '-d':
-  try:
-    r = requests.get(EPGURL)
-    with open(ename, 'wb') as f:
-      f.write(r.content)
-  except:
-    print("file download failed.")
-    sys.exit()
+    try:
+        R = requests.get(EPGURL)
+        with open(ENAME, 'wb') as f:
+            f.write(R.content)
+    except (RequestException, IOError) as ex:
+        print(ex)
+        sys.exit()
 
-channels = xmltv.read_channels(open(ename, 'r'))
+CHANNELS = xmltv.read_channels(open(ENAME, 'r'))
 
-with open(aname, 'w') as f:
-  for channel in channels:
-    f.write((channel["display-name"][0][0]) + '\n')
+with open(ANAME, 'w') as f:
+    for channel in CHANNELS:
+        f.write((channel["display-name"][0][0]) + '\n')

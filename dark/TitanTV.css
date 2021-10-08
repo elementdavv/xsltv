@@ -1,0 +1,21 @@
+.gridtimetitle {
+    color: darkred;
+}
+#gridtime, tr.timebar {
+    background-color: #8e979f;
+}
+th.channel {
+    background-color: #212121;
+}
+td {
+    background-color: #333333
+}
+td:hover {
+    background-color: #212121;
+}
+th.channel, td.extendleft, td.extendright, td.program {
+    color: #dadada;
+}
+tr.timebar th, th.channel, td {
+    border: 1px solid #dadada;
+}
